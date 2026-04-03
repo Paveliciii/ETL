@@ -45,6 +45,7 @@
                 }
             }
             AppInstance.LoadPlugins = true;
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
             // Global exception handlers to catch unhandled exceptions from WinForms message loop
             Application.ThreadException += (sender, e) =>
             {
@@ -71,18 +72,19 @@
                 Log.InfoFormat("BaseDirectory: {0}", AppDomain.CurrentDomain.BaseDirectory);
                 Log.InfoFormat("configPath: {0}", configPath);
                 Log.InfoFormat("File exists: {0}", File.Exists(configPath));
-                if (!File.Exists(configPath))
+                bool needInitializeConfig = !File.Exists(configPath) || IsMinimalConfig(configPath);
+                if (needInitializeConfig)
                 {
-                    string settingsXml = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "settings.xml");
-                    if (File.Exists(settingsXml))
+                    string settingsXml = ResolveTemplateConfigPath(AppDomain.CurrentDomain.BaseDirectory);
+                    if (!string.IsNullOrEmpty(settingsXml) && File.Exists(settingsXml))
                     {
-                        File.Copy(settingsXml, configPath);
+                        File.Copy(settingsXml, configPath, true);
                         Log.InfoFormat("Copied settings.xml to: {0}", configPath);
                     }
                     else
                     {
                         File.WriteAllText(configPath, "<CONFIG></CONFIG>");
-                        Log.InfoFormat("Created minimal ndtm.config at: {0}", configPath);
+                        Log.WarnFormat("settings.xml was not found. Created minimal ndtm.config at: {0}", configPath);
                     }
                 }
             }
@@ -180,6 +182,81 @@
         public static ETLShellSettings Preferences =>
             AppManager.Configurator.GetSection<ETLShellSettings>();
 
+        private static void LogConfigFinderBasePath(ConfigFileFinder finder)
+        {
+            try
+            {
+                var basePathProperty = typeof(ConfigFileFinder).GetProperty("BasePath");
+                if (basePathProperty != null)
+                {
+                    object basePath = basePathProperty.GetValue(finder, null);
+                    Log.InfoFormat("ConfigFileFinder.BasePath: {0}", basePath ?? "<null>");
+                }
+                else
+                {
+                    Log.Warn("ConfigFileFinder.BasePath property not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Failed to read ConfigFileFinder.BasePath", ex);
+            }
+        }
+
+        private static bool IsMinimalConfig(string path)
+        {
+            try
+            {
+                if (!File.Exists(path))
+                {
+                    return true;
+                }
+
+                string configContent = File.ReadAllText(path).Trim();
+                return string.Equals(configContent, "<CONFIG></CONFIG>", StringComparison.OrdinalIgnoreCase);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Failed to validate ndtm.config content", ex);
+                return false;
+            }
+        }
+
+        private static string ResolveTemplateConfigPath(string startDirectory)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(startDirectory))
+                {
+                    return null;
+                }
+
+                string current = startDirectory;
+                for (int i = 0; i < 8; i++)
+                {
+                    string candidate = Path.Combine(current, "settings.xml");
+                    if (File.Exists(candidate))
+                    {
+                        return candidate;
+                    }
+
+                    string parent = Directory.GetParent(current)?.FullName;
+                    if (string.IsNullOrEmpty(parent) || string.Equals(parent, current, StringComparison.OrdinalIgnoreCase))
+                    {
+                        break;
+                    }
+
+                    current = parent;
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Failed to resolve settings.xml location", ex);
+            }
+
+            return null;
+        }
+
         private static ConfigFileFinder CreateSafeConfigFileFinder()
         {
             string baseDir = AppDomain.CurrentDomain.BaseDirectory;
@@ -187,6 +264,9 @@
             string startupPath = Application.StartupPath;
             string[] lookupPaths = new[] { baseDir, currentDir, startupPath };
             var finder = new ConfigFileFinder(lookupPaths, ConfigFileName);
+
+            Log.InfoFormat("ConfigFileFinder lookup paths: {0}", string.Join("; ", lookupPaths));
+            LogConfigFinderBasePath(finder);
 
             try
             {
@@ -204,7 +284,17 @@
                 string fallbackPath = Path.Combine(fallbackDirectory, ConfigFileName);
                 if (!File.Exists(fallbackPath))
                 {
-                    File.WriteAllText(fallbackPath, "<CONFIG></CONFIG>");
+                    string settingsXml = ResolveTemplateConfigPath(fallbackDirectory);
+                    if (!string.IsNullOrEmpty(settingsXml) && File.Exists(settingsXml))
+                    {
+                        File.Copy(settingsXml, fallbackPath);
+                        Log.InfoFormat("Copied settings.xml to fallback config path: {0}", fallbackPath);
+                    }
+                    else
+                    {
+                        File.WriteAllText(fallbackPath, "<CONFIG></CONFIG>");
+                        Log.WarnFormat("settings.xml was not found for fallback. Created minimal config at: {0}", fallbackPath);
+                    }
                 }
 
                 finder = new ConfigFileFinder(new[] { fallbackDirectory }, ConfigFileName);
