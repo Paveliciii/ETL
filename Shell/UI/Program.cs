@@ -45,6 +45,7 @@
                 }
             }
             AppInstance.LoadPlugins = true;
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
             // Global exception handlers to catch unhandled exceptions from WinForms message loop
             Application.ThreadException += (sender, e) =>
             {
@@ -180,6 +181,27 @@
         public static ETLShellSettings Preferences =>
             AppManager.Configurator.GetSection<ETLShellSettings>();
 
+        private static void LogConfigFinderBasePath(ConfigFileFinder finder)
+        {
+            try
+            {
+                var basePathProperty = typeof(ConfigFileFinder).GetProperty("BasePath");
+                if (basePathProperty != null)
+                {
+                    object basePath = basePathProperty.GetValue(finder, null);
+                    Log.InfoFormat("ConfigFileFinder.BasePath: {0}", basePath ?? "<null>");
+                }
+                else
+                {
+                    Log.Warn("ConfigFileFinder.BasePath property not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("Failed to read ConfigFileFinder.BasePath", ex);
+            }
+        }
+
         private static ConfigFileFinder CreateSafeConfigFileFinder()
         {
             string baseDir = AppDomain.CurrentDomain.BaseDirectory;
@@ -187,6 +209,9 @@
             string startupPath = Application.StartupPath;
             string[] lookupPaths = new[] { baseDir, currentDir, startupPath };
             var finder = new ConfigFileFinder(lookupPaths, ConfigFileName);
+
+            Log.InfoFormat("ConfigFileFinder lookup paths: {0}", string.Join("; ", lookupPaths));
+            LogConfigFinderBasePath(finder);
 
             try
             {
