@@ -222,11 +222,17 @@
             }
         }
 
+
+        private static bool IsNullOrWhiteSpace(string value)
+        {
+            return string.IsNullOrEmpty(value) || value.Trim().Length == 0;
+        }
+
         private static string ResolveTemplateConfigPath(string startDirectory)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(startDirectory))
+                if (IsNullOrWhiteSpace(startDirectory))
                 {
                     return null;
                 }
@@ -240,7 +246,8 @@
                         return candidate;
                     }
 
-                    string parent = Directory.GetParent(current)?.FullName;
+                    DirectoryInfo parentInfo = Directory.GetParent(current);
+                    string parent = parentInfo != null ? parentInfo.FullName : null;
                     if (string.IsNullOrEmpty(parent) || string.Equals(parent, current, StringComparison.OrdinalIgnoreCase))
                     {
                         break;
@@ -278,7 +285,7 @@
             {
                 Log.Error("ConfigFileFinder failed during initialization. Creating local fallback config.", ex);
 
-                string fallbackDirectory = string.IsNullOrWhiteSpace(baseDir)
+                string fallbackDirectory = IsNullOrWhiteSpace(baseDir)
                     ? Directory.GetCurrentDirectory()
                     : baseDir;
                 string fallbackPath = Path.Combine(fallbackDirectory, ConfigFileName);
