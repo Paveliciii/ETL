@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using ERMS.Core.Common;
+
+namespace AT.ETL
+{
+    // Minimal stub for ETLConnectionPair used across the project.
+    public class ETLConnectionPair
+    {
+        public DateTime LastAccessDate { get; set; }
+        public string ConnectionString { get; set; }
+    }
+
+    // Minimal ConnectionEntry used by adapters and forms.
+    public class ConnectionEntry
+    {
+        public ConnectionEntry(object caller)
+        {
+            this.Caller = caller;
+        }
+
+        public object Caller { get; set; }
+        public string ConnectionString { get; set; }
+    }
+}
+
+namespace Shell.UI
+{
+    // Simple config type stored in ETLSettings.DataSources
+    public class DataSourceConfig
+    {
+        public int Timeout { get; set; }
+    }
+
+    // Minimal ETLSettings to satisfy configuration usage in the shell.
+    public class ETLSettings : ConfigurationSection
+    {
+        public static ETLSettings Preferences { get; } = new ETLSettings();
+
+        // DataSources used by the UI; Timeout is accessed by ETLShellSettings.
+        public Dictionary<string, DataSourceConfig> DataSources { get; } = new Dictionary<string, DataSourceConfig>(StringComparer.OrdinalIgnoreCase);
+
+        public Dictionary<string, AT.ETL.ETLConnectionPair> ScenarioConnections { get; } = new Dictionary<string, AT.ETL.ETLConnectionPair>(StringComparer.OrdinalIgnoreCase);
+    }
+
+    // Interface implemented by ShellSqlFormService.
+    public interface ISqlFormService
+    {
+        bool ShowScenarioForm(object owner, string sourceName, string destinationName, AT.ETL.ETLConnectionPair pair);
+        bool ShowSqlServerForm(AT.ETL.ConnectionEntry entry);
+    }
+}

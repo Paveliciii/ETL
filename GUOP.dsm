@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<AssemblyDSNMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" EntityDescriptionFile="database.ed">
+  <AssemblyNames>
+    <Assembly>Core.dll</Assembly>
+    <Assembly>ContactInfo.dll</Assembly>
+    <Assembly>MapEntities.dll</Assembly>
+    <Assembly>Geography.dll</Assembly>
+    <Assembly>LineNetwork.dll</Assembly>
+    <Assembly>RoadNetwork.dll</Assembly>
+    <Assembly>TransportModel.dll</Assembly>
+    <Assembly>Moulds.dll</Assembly>
+    <Assembly>TransportInfrastructureCheck.dll</Assembly>
+    <Assembly>ERMS.Security.dll</Assembly>
+    <Assembly>ERMS.BLL.dll</Assembly>
+    <Assembly>BLL.FTP.dll</Assembly>
+    <Assembly>BLL.FareControlSystem.dll</Assembly>
+    <Assembly>BLL.PassengerCarryCheck.dll</Assembly>
+  </AssemblyNames>
+</AssemblyDSNMap>

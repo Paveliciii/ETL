@@ -1,0 +1,59 @@
+<CONFIG>
+  <LOG>
+    <CORE>
+      <Enabled>True</Enabled>
+      <WaitForListeners>True</WaitForListeners>
+    </CORE>
+    <FILE_WRITER>
+      <FileURI>.\log.log</FileURI>
+      <Enabled>True</Enabled>
+      <LastFileCount>1</LastFileCount>
+      <LogLevel>All</LogLevel>
+      <PerFileCount>100000</PerFileCount>
+      <DeleteThreshold>10</DeleteThreshold>
+    </FILE_WRITER>
+    <DISPLAY>
+      <ShowDebug>False</ShowDebug>
+      <ErrorColor>Red</ErrorColor>
+      <WarningColor>Orange</WarningColor>
+      <InfoColor>Black</InfoColor>
+      <DebugColor>Gray</DebugColor>
+      <ScrollDown>True</ScrollDown>
+      <RecentLogCount>1000</RecentLogCount>
+    </DISPLAY>
+  </LOG>
+  <APPINIT>
+    <AllowOnlyOneInstance>False</AllowOnlyOneInstance>
+    <AutoRestartOnCriticalFailure>False</AutoRestartOnCriticalFailure>
+    <DefaultLocale>RU</DefaultLocale>
+    <CloseOnCriticalError>False</CloseOnCriticalError>
+  </APPINIT>
+  <NDTM>
+    <PlugIns>
+      <Assemblies ItemAssembly="АРМ Формирование НДТМ, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ItemType="Shell.UI.ScenarioDOM.PlugInAssembly" />
+    </PlugIns>
+  </NDTM>
+  <APPLICATION>
+    <UseApplicationServer>False</UseApplicationServer>
+    <HostName>localhost</HostName>
+    <BasePort>18000</BasePort>
+  </APPLICATION>
+  <DATABASE>
+    <BROWSER>
+      <CachedServers ItemAssembly="ATMssqlToolbox, Version=2.0.0.4, Culture=neutral, PublicKeyToken=null" ItemType="AT.Toolbox.MSSQL.ServerEntry" />
+      <MouldFilePath>database.mould</MouldFilePath>
+      <DeveloperMode>False</DeveloperMode>
+      <CurrentConnection>User ID=;Password=</CurrentConnection>
+      <SaveAuthData>False</SaveAuthData>
+    </BROWSER>
+  </DATABASE>
+  <ERROR_MAIL>
+    <RemoteAdress>
+    </RemoteAdress>
+  </ERROR_MAIL>
+  <HELP>
+    <HelpFilePath>
+    </HelpFilePath>
+    <DebugMode>False</DebugMode>
+  </HELP>
+</CONFIG>

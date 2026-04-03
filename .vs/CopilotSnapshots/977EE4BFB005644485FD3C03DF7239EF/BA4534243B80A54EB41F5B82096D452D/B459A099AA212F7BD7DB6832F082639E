@@ -1,0 +1,27 @@
+﻿namespace Shell.UI
+{
+    using System;
+    using System.Collections.Generic;
+
+    // Minimal stubs to satisfy compile-time dependencies present in external assemblies.
+    public class ETLConnectionPair
+    {
+        public DateTime LastAccessDate { get; set; }
+        public string ConnectionString { get; set; }
+    }
+
+    public class ETLSettings
+    {
+        public static ETLSettings Preferences { get; } = new ETLSettings();
+
+        public Dictionary<string, object> DataSources { get; } = new Dictionary<string, object>(StringComparer.OrdinalIgnoreCase);
+
+        public Dictionary<string, ETLConnectionPair> ScenarioConnections { get; } = new Dictionary<string, ETLConnectionPair>(StringComparer.OrdinalIgnoreCase);
+    }
+
+    public interface ISqlFormService
+    {
+        bool ShowScenarioForm(object owner, string sourceName, string destinationName, ETLConnectionPair pair);
+        bool ShowSqlServerForm(object entry);
+    }
+}

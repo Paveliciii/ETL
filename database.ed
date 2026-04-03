@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EntityDescriptionContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultCategory="Основное">
+  <Fields>
+    <FieldDescription ColumnName="AcsUpdateDate" Caption="Дата об. АСУ" Description="Дата обновления в АСУ ГППТ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Action" Caption="Действие" Description="Действие" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ActivationDate" Caption="Дата ввода" Description="Дата ввода" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Active" Caption="Активен" Description="Активен" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ActualSoftwareVersion" Caption="Тек. версия" Description="Текущая версия ПО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Address" Caption="Адрес" Description="Адрес" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AddressID" Caption="Адрес" Description="Адрес" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AgeRangeID" Caption="Возраст" Description="Диапазон возрастов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Alias" Caption="Системное имя" Description="Системное имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Alight" Caption="Сошло" Description="Сошло" Category="Замеры" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="Allow" Caption="Разрешено" Description="Разрешено" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AnalysisIntervalBegin" Caption="Начало интервала" Description="Начало интервала анализа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AnalysisIntervalEnd" Caption="Окончание интервала" Description="Окончание интервала анализа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AnalysisTaskID" Caption="Задача" Description="Задача анализа данных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AnalysisTimeIntervalID" Caption="Интервал" Description="Интервал временного анализа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AnswerDate" Caption="Дата ответа" Description="Дата ответа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ApplicationName" Caption="Назв. прилож-я" Description="Название приложения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrangementHeight" Caption="Выс. разм-я [м]" Description="Высота размещения [м]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrangementID" Caption="Местоaf размещения" Description="Место размещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrangementPlace" Caption="Место разм-я" Description="Место размещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrangementType" Caption="Тип разм-я" Description="Тип размещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrivalTime" Caption="Прибытие" Description="Время прибытия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArriveDate" Caption="Прибытие" Description="Время прибытия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArriveTime" Caption="Прибытие" Description="Время прибытия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrowX" Caption="X" Description="Горизонтальная позиция" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ArrowY" Caption="Y" Description="Вертикальная позиция" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AscDocumentID" Caption="Ид. АСУ" Description="Идентификатор документа в АСУ ГППТ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="AscName" Caption="Название АСУ" Description="Название документа в АСУ ГППТ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BackwardOrderNumber" Caption="№ п/п обр. напр." Description="Порядок в обратном направлении" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Bandwidth" Caption="Проп. спос-ть" Description="Пропускная способность" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Begin" Caption="Начало" Description="Начало временного интервала" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BeginTerminalID" Caption="Нач. пункт" Description="Начальный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BlockTime" Caption="Блокировка" Description="Время блокировки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Board" Caption="Вошло" Description="Вошло" Category="Замеры" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="BoardEquipmentCount" Caption="БО" Description="Количество бортового оборудования" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Branch" Caption="Филиал" Description="Филиал перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BranchName" Caption="Филиал" Description="Название филиала перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BranchShortName" Caption="Филиал" Description="Сокращённое наименование филиала перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BrigadeID" Caption="Бригада" Description="Бригада" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Brigadier" Caption="Бригадир" Description="Бригадир" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="BrigadierID" Caption="Бригадир" Description="Бригадир" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Broadening" Caption="Расш. пр. ч. д. ост. ТС" Description="Расширение проезжей части для остановки ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CalculationDate" Caption="Дата расч." Description="Дата расчёта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Capacity" Caption="Вмест-ть" Description="Вместимость" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CapacityPrivateTransport" Caption="Вмест-ть ЧТ" Description="Вместимость частного транспорта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CardNumber" Caption="Карта" Description="Номер карты" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Category" Caption="Категория" Description="Категория" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CheckEmployeeID" Caption="Инспектор" Description="Инспектор" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CheckInitiatorID" Caption="Инициатор" Description="Инициатор проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ChecksCount" Caption="Проверок" Description="Количество проверок" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CheckStatus" Caption="Статус проверки" Description="Статус проверки" Category="Проверка" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CheckSum" Caption="Контр. сум." Description="Контрольная сумма" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CheckType" Caption="Вид пров." Description="Вид проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CheckTypeID" Caption="Вид пров." Description="Вид проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ClockNumber" Caption="Табельный №" Description="Табельный номер кондуктора" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Code" Caption="Артикул" Description="Артикул" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Comment" Caption="Комментарий" Description="Комментарий" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Commercial" Caption="Коммерческий" Description="Коммерческий" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ComputerName" Caption="Компьютер" Description="Имя компьютера" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ConductorClockNumber" Caption="Таб. №" Description="Табельный номер кондуктора" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ConnectorTypeID" Caption="Соединение" Description="Тип соединения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Consumption" Caption="Расход" Description="Расходование" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ContactPerson" Caption="Конт. лицо" Description="Контактное лицо" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ContactPersonID" Caption="Контакт" Description="Контакт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ContractDate" Caption="Дата заключения договора" Description="Дата заключения договора" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ContractNumber" Caption="№ договора" Description="Номер договора" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler" Caption="Контролёр" Description="Контролёр" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler1" Caption="Контролёр1" Description="Контролёр1" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler1ID" Caption="Контролёр1" Description="Контролёр1" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler2" Caption="Контролёр2" Description="Контролёр2" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler2ID" Caption="Контролёр2" Description="Контролёр2" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler3" Caption="Контролёр3" Description="Контролёр3" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Controler3ID" Caption="Контролёр3" Description="Контролёр3" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ControllerID" Caption="Контролёр" Description="Контролёр" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ControlType" Caption="Управление" Description="Тип управления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Correspondence" Caption="Внешний документ" Description="Внешний документ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CorrespondenceID" Caption="Основ-е д. проверки" Description="Основание для проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CorrespondenceMatrixID" Caption="Корреспонденции" Description="Матрица корреспонденций" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Cost" Caption="Стоимость" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Country" Caption="Страна" Description="Страна" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CountryID" Caption="Страна" Description="Страна" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CreatedDate" Caption="Дата созд-я" Description="Дата создания" Category="Состояние" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="CrossHouseID" Caption="Дом по пересеч." Description="Дом по пересечению" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossHouseNumber" Caption="Дом по перес. дор." Description="Номер дома по пересекающей дороге" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossIndex" Caption="Индекс по пер. дор." Description="Индекс дома по пересекающей дороге" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossLitera" Caption="Литера по пер. дор." Description="Литера по пересекающей дороге" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossroadDistance" Caption="Расст. до перекр. [м]" Description="Расстояние до перекрестка [м]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossRoadID" Caption="Перес. дорога" Description="Пересекающая дорога" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossRoadName" Caption="Назв. пер. дор." Description="Название пересекающей дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossRoadSide" Caption="Стор. пер. дор." Description="Сторона пересекающей дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="CrossRoadType" Caption="Тип пер. дор." Description="Тип пересекающей дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Database" Caption="База данных" Description="База данных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DatabaseId" Caption="БД Visum" Description="База данных Visum" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DataSource" Caption="Ист-к данных" Description="Источник данных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DataSourceID" Caption="Источник данных" Description="Источник данных" Category="Состояние" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="DataSourceName" Caption="Источник данных" Description="Источник данных" Category="Состояние" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Date" Caption="Дата" Description="Дата" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DateOfBirth" Caption="Дата рожд." Description="Дата рождения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DateOfIssue" Caption="Даты выдачи" Description="Даты выдачи" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DateOfPerformance" Caption="Срок исполнения" Description="Срок исполнения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DativeCase" Caption="Дательный падеж" Description="Дательный падеж" Category="Склонение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DbUploadDate" Caption="Дата загрузки в БД" Description="Дата загрузки в базу данных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DefaultStyle" Caption="Стиль по ум." Description="Стиль по умолчанию" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DefaultStyleID" Caption="Стиль по умолчанию" Description="Стиль по умолчанию" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DefaultStyleString" Caption="Стиль" Description="Стиль по умолчанию" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Defect" Caption="Неисправность" Description="Вид неисправности оборудования" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DeliveryDate" Caption="Дата доставки" Description="Дата доставки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DemandDocument" Caption="Осн-е д. заявки" Description="Основание для заявки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DemandDocumentID" Caption="Осн-е д. заявки" Description="Основание для заявки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DemandsCount" Caption="Количество заявок" Description="Количество заявок" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Department" Caption="Подразделение" Description="Подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DepartmentID" Caption="Подразделение" Description="Подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DepartmentName" Caption="Подразделение" Description="Подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DepartureDate" Caption="Отправление" Description="Время отправления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DepartureTime" Caption="Отправление" Description="Время отправления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DepartureTimeFact" Caption="Отпр. факт." Description="Время отправления по факту" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DepartureTimeProfile" Caption="Отпр. расп." Description="Время отправления по расписанию" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Description" Caption="Описание" Description="Описание" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Destination" Caption="Приёмник" Description="Приёмник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DestinationStatusID" Caption="Конечный статус" Description="Конечный статус" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DestinationZoneID" Caption="Назначение" Description="Район назначения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Deviation" Caption="Отклонение" Description="Отклонение от расписания" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DiagnosticDate" Caption="Д. диагн-ки" Description="Дата диагностики" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Diameter" Caption="Диаметр" Description="Диаметр" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Directed" Caption="Направление" Description="Направление" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Direction" Caption="Напр-е" Description="Направление" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DirectionID" Caption="Направление" Description="Направление" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Discrepancy" Caption="Невязка" Description="Величина невязки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DisplayValue" Caption="Значение" Description="Отображаемое значение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="District" Caption="Район" Description="Район" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DistrictID" Caption="Район" Description="Район" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DocumentCode" Caption="Тип" Description="Тип документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DocumentID" Caption="Документ" Description="Документ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DocumentName" Caption="Назв. док." Description="Название документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DocumentType" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DocumentTypeID" Caption="Назв. типа док-та" Description="Название типа документа" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="DuplicateCount" Caption="Дубликатов" Description="Количество дубликатов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Duration" Caption="Продолжительность" Description="Продолжительность" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Duty" Caption="Режим" Description="Режим работы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DutyID" Caption="Режим" Description="Режим работы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="DwellTime" Caption="Время перехода" Description="Время перехода между ОП" Category="VISUM" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Email" Caption="E-mail" Description="E-mail" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Employee" Caption="Сотрудник" Description="Сотрудник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EmployeeCount" Caption="Кол-во сотруд." Description="Количество сотрудников" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EmployeeID" Caption="Сотрудник" Description="Сотрудник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Employees" Caption="Рабочее население" Description="Рабочее население" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="End" Caption="Окончание" Description="Окончание временного интервала" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EndDate" Caption="Дата окончания" Description="Дата окончания" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EndPoint" Caption="Кон. пункт" Description="Конечный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EndStopPointID" Caption="Кон. пункт" Description="Конечный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EndTerminalID" Caption="Кон. пункт" Description="Конечный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EntityID" Caption="Сущность" Description="Сущность" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EquipmentDefectID" Caption="Дефект" Description="Дефект оборудования" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EquipmentID" Caption="Оборудование" Description="Оборудование СЭКОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EquipmentNumber" Caption="Код контроллера" Description="Код контроллера" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ErrorCount" Caption="Ошибок" Description="Количество ошибок" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EventDescription" Caption="Описание события" Description="Описание события" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EventTime" Caption="Время события" Description="Время события" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="EventType" Caption="Событие" Description="Событие" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ExecutionDate" Caption="Дата вып." Description="Дата выполнения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Executor" Caption="Исполнитель" Description="Исполнитель" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ExecutorID" Caption="Исполнитель" Description="Исполнитель" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ExpendedResource" Caption="Ресурс" Description="Истраченный ресурс" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ExpirePeriod" Caption="Период устаревания" Description="Период устаревания" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Fax" Caption="Факс" Description="Факс" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FieldName" Caption="Поле" Description="Название поля" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FileDataGuid" Caption="Данные" Description="Данные" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FileEntryID" Caption="Файл" Description="Файл" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FileID" Caption="Файл" Description="Файл" Category="" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FileLineNumber" Caption="Строка" Description="Номер строки файла" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FileName" Caption="Файл" Description="Имя файла" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FilePath" Caption="Путь" Description="Путь" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FileSize" Caption="Размер" Description="Размер файла [байт]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Filter" Caption="Фильтр" Description="Фильтр" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FilterString" Caption="Фильтр" Description="Фильтр" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FinanceChecksCount" Caption="Проверки" Description="Количество проверок" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FinishDate" Caption="Дата окончания" Description="Дата окончания" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FinishTime" Caption="Время окончания" Description="Время окончания" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FinishWorkDate" Caption="Вр. оконч. раб" Description="Время окончания работы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FirstPoint" Caption="1-я точка" Description="Первая точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FirstPointID" Caption="1-я точка" Description="Первая точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FirstPointNo" Caption="1-я точка" Description="Номер первой точки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FirstRecordDate" Caption="Дата первой записи" Description="Дата первой записи" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FirstTransactionDate" Caption="Первая транзакция" Description="Время первой транзакции" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Flags" Caption="Флаги" Description="Битывые флаги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Flat" Caption="Оф./Кв." Description="Офис/Квартира" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="Form" Caption="Орг.-прав. форма" Description="Организационно-правовые нормы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FormID" Caption="Орг.-прав. форма" Description="Организационно-правовые нормы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ForwardOrderNumber" Caption="№ п/п пр. напр." Description="Порядок в прямом направлении" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FromNode" Caption="Нач. узел" Description="Начальный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FromNodeID" Caption="Исх. узел" Description="Исходный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FromPoint" Caption="Начальная точка" Description="Начальная точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FromPointID" Caption="Исх. точка" Description="Исходная точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FromRoadID" Caption="Исх. дор." Description="Исходная дорога" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FtpBackupFolder" Caption="FTP - резервные" Description="Папка резервных копий (FTP)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FtpSourceFolder" Caption="FTP - входящие" Description="Папка входящих документов (FTP)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FtpUploadDate" Caption="Дата загрузки на FTP" Description="Дата загрузки на FTP сервер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="FullName" Caption="Полн. назв." Description="Полное название" Visible="true" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="Gender" Caption="Пол" Description="Пол" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="GenitiveCase" Caption="Родительный падеж" Description="Родительный падеж" Category="Склонение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="GeoIdentifier" Caption="Гео. идентификатор" Description="Географический идентификатов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="GeometryType" Caption="Тип геометрии" Description="Тип геометрии" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="GeoPointID" Caption="Точка" Description="Точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="GoodThrough" Caption="Действительно до" Description="Действительно до" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="GRN" Caption="Гос.рег.№" Description="Государственный регистрационный номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HandControllerCount" Caption="Контроллеров" Description="Количество контроллеров" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HandControllerNumber" Caption="Контроллер" Description="Номер ручного контроллера" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HasBuffet" Caption="Буфет" Description="Наличие буфета" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HasFileData" Caption="Файл" Description="Флаг наличия файла" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Hash" Caption="Контрольная сумма" Description="Контрольная сумма" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HasMiniature" Caption="Миниатюра" Description="Флаг наличия миниатюры" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Height" Caption="Высота" Description="Высота" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HistoryID" Caption="История" Description="История изменения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HouseID" Caption="Дом" Description="Дом" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HouseIndex" Caption="Индекс" Description="Индекс" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HouseNumber" Caption="Номер дома" Description="Номер дома" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Houses" Caption="Домов" Description="Домов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="HullNumber" Caption="Борт. №" Description="Бортовой номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ID" Caption="Ид." Description="Уникальный идентификатор" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="Incoming" Caption="Входящих" Description="Количество входящих пассажиров" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IncomingNumber" Caption="Входящий номер" Description="Входящий номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Info" Caption="Информация" Description="Информация" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InfoFieldTypeID" Caption="Инф. поля" Description="Информационные поля" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InitiatorCorrespondence" Caption="Входящий" Description="Инициатор (документ)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InitiatorIncomingNumber" Caption="Инициатор" Description="Инициатор (входящий)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InitiatorPerson" Caption="Лицо" Description="Инициатор (лицо)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InputFilePath" Caption="Входной файл" Description="Входной файл" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InspectionDate" Caption="Дата обследования" Description="Дата обследования" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Inspector" Caption="Инспектор" Description="Инспектор" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InspectorID" Caption="Инспектор" Description="Инспектор" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InstalledSoftwareVersion" Caption="Уст. версия" Description="Версия установленного ПО" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Interval" Caption="Интервал" Description="Интервал мин." Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="IntervalBegin" Caption="Начало" Description="Начало интервала анализа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IntervalEnd" Caption="Окончание" Description="Окончание интервала анализа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="InUse" Caption="Действующее" Description="Действующее" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsActive" Caption="Активный" Description="Активный" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsAlight" Caption="Посадка" Description="Посадка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsBoard" Caption="Высадка" Description="Высадка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsBoarding" Caption="Расш. д. ТС" Description="Расширение дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsByRequierment" Caption="По треб." Description="По требованию" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsCircleLine" Caption="Кольцевое" Description="Кольцевое" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsDirected" Caption="Прям. напр. дв-я " Description="Прямое направление движения " Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsElectric" Caption="Электр." Description="Электрический" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsFromBeginTerminal" Caption="От нач. пункта" Description="Отправление от начального пункта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsFull" Caption="Полный" Description="Полный" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsInterval" Caption="Интервальный" Description="Интервальный" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsNotUpload" Caption="Не выгружать" Description="Не выгружать" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsReadOnly" Caption="Только д. чт." Description="Только для чтения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsRoadMark" Caption="Разметка" Description="Дорожная разметка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsRoadSign516" Caption="ПДД 5.16" Description="Знак ПДД 5.16" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsSignificant" Caption="Существенная" Description="Существенная" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsStandard" Caption="Станд." Description="Стандартный" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsSuburban" Caption="Пригородный" Description="Пригородный" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IssueDate" Caption="Д. вып." Description="Дата выпуска" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsTechnological" Caption="Техн-ские" Description="Технологичесие транзакции" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="IsValid" Caption="Корректные данные" Description="Корректные данные" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="IsWhole" Caption="Полный" Description="Полный" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Kind" Caption="Вид" Description="Вид" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LaneCount" Caption="Кол-во полос" Description="Количество полос" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Lanes" Caption="Кол-во полос" Description="Количество полос" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LastPoint" Caption="Последняя точка" Description="Последняя точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LastPointID" Caption="Последняя точка" Description="Последняя точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LastPointNo" Caption="Последняя точка" Description="Последняя точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LastStartTime" Caption="Последний запуск" Description="Последний запуск" Visible="true" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="LastTransactionDate" Caption="Последняя транзакция" Description="Дата последней транзакции" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LastUsedDate" Caption="Дата использования" Description="Дата последнего использования" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LayerID" Caption="Слой" Description="Слой" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LayerName" Caption="Слой" Description="Слой" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LegalAddressID" Caption="Юр. адр." Description="Юридический адрес" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Length" Caption="Длина" Description="Длина" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Lighting" Caption="Освещение" Description="Условия освещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineCode" Caption="Код маршрута" Description="Код маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineCount" Caption="Ко-во марш." Description="Количество маршрутов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineID" Caption="Маршрут" Description="Маршрут" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineNumber" Caption="Маршрут" Description="Номер маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRoute" Caption="ВМ" Description="Вариант маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRouteCount" Caption="Кол-во ВМ" Description="Количество вариантов маршрутов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRouteID" Caption="ВМ" Description="Вариант маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRouteNodeID" Caption="Узел ВМ" Description="Узел варианта маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRouteNumber" Caption="Номер ВМ" Description="Номер варианта маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRoutes" Caption="ВМ" Description="Варианты маршрута" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRoutesCount" Caption="Кол-во ВМ" Description="Количество вариантов маршрутов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineRouteString" Caption="ВМ" Description="Варианты маршрутов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineWorkOrderID" Caption="Наряд" Description="Наряд ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LineWorkOrderNumber" Caption="Наряд" Description="Номер наряда на выезд ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Litera" Caption="Литера" Description="Литера" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LoadDate" Caption="Дата загрузки" Description="Дата загрузки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LoadedCount" Caption="Загружено" Description="Загружено" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LoadValueID" Caption="Нагрузка" Description="Среднее значение нагрузки" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="Locality" Caption="НП" Description="Населённый пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="LocalityID" Caption="Насел. пункт" Description="Населенный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Location" Caption="Место" Description="Местоположение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Login" Caption="Логин" Description="Логин" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MakingDate" Caption="Изготовлен" Description="Дата изготовления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ManID" Caption="ФЛ" Description="Физическое лицо" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MaxAge" Caption="Макс. возраст" Description="Максимальный возраст" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MaxPeriod" Caption="Макс. период" Description="Максимальный период" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MaxScale" Caption="Макс. масштаб" Description="Максимальный масштаб" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MaxTrip" Caption="Макс. кол-во рейсов" Description="Максимальное количество рейсов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MaxVelocity" Caption="Макс. скор." Description="Максимальная скорость" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MeasureDate" Caption="Дата изм-я" Description="Дата измерения" Category="Замеры" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="MeasurementUnit" Caption="Ед. измер-я" Description="Единица измерения" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="MeasurementUnitID" Caption="Ед. измер." Description="Единица измерения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MinAge" Caption="Мин. возраст" Description="Минимальный возраст" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MiniatureID" Caption="Изображение" Description="Изображение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MinPeriod" Caption="Мин. период" Description="Минимальный период" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MinScale" Caption="Мин. масштаб" Description="Минимальный масштаб" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Mobile" Caption="Н.р моб." Description="Номер мобильного" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Model" Caption="Модель" Description="Модель" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ModifiedDate" Caption="Дата измен-я" Description="Дата изменения" Category="Состояние" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="MotionTime" Caption="Время движения" Description="Время движения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Mount" Caption="Вид креп." Description="Вид крепления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="MountID" Caption="Вид крепления" Description="Вид крепления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Name" Caption="Название" Description="Название" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="NameCount" Caption="Кол-во назв." Description="Количество названий" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Node" Caption="Узел" Description="Узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="NodeId" Caption="Узел" Description="Узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="NodeID" Caption="Узел" Description="Узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="NPR" Caption="ИНН" Description="ИНН" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number" Caption="Номер" Description="Номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_BK" Caption="Номер БК" Description="Номер БК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_IUsR1" Caption="Номер ИУсР1" Description="Номер ИУсР1" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_IUsR2" Caption="Номер ИУсР2" Description="Номер ИУсР2" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_KB" Caption="Номер КВ" Description="Номер КВ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_UsR1" Caption="Номер УсР1" Description="Номер УсР1" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_UsR2" Caption="Номер УсР2" Description="Номер УсР2" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_UsR3" Caption="Номер УсР3" Description="Номер УсР3" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Number_UsR4" Caption="Номер УсР4" Description="Номер УсР4" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="NumberSpecification" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ObjectGuid" Caption="УИД" Description="Уникальный идентификатор" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OfficialName" Caption="Офиц. назв." Description="Официальное название" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Operation" Caption="Действие" Description="Действие" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Operator" Caption="Перевозчик" Description="Перевозчик" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorBranch" Caption="Филиал" Description="Филиал перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorBranchCode" Caption="Код филиала перевозчика" Description="Код филиала перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorBranchID" Caption="Филиал" Description="Филиал перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorBranchName" Caption="Филиал" Description="Филиал перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorBranchOperatorID" Caption="Перевозчик" Description="Идентификатор перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" ApplicationName="" />
+    <FieldDescription ColumnName="OperatorBranchShortName" Caption="Филиал" Description="Филиал перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorCode" Caption="Код перевозчика" Description="Код перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorID" Caption="Перевозчик" Description="Перевозчик" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorName" Caption="Перевозчик" Description="Перевозчик" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorName" Caption="Пер-к" Description="Перевозчик" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorNumber" Caption="Н-р перевозчика" Description="Номер перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorOrganizationID" Caption="Организация" Description="Организация перевозчика" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Operators" Caption="Пер-ки" Description="Перевозчики" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OperatorShortName" Caption="Пер-к" Description="Перевозчик" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OrderCount" Caption="Кол-во нарядов" Description="Количество нарядов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OrderNumber" Caption="№ п./п." Description="Порядковый номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Organization" Caption="Орг." Description="Организация" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OrganizationID" Caption="ЮЛ" Description="Юридическое лицо" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OrganizationName" Caption="Название" Description="Название организации" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Outcoming" Caption="Выходящих" Description="Количество выходящих пассажиров" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Owner" Caption="Собственник" Description="Собственник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="OwnerID" Caption="Собственник" Description="Собственник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Parent" Caption="Главное подр." Description="Главное подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ParentID" Caption="Главное подр." Description="Главное подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Passangers" Caption="Пассажиров" Description="Количество пассажиров" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PassengerFlowTableID" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PassportID" Caption="Паспорт" Description="Паспорт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Password" Caption="Пароль" Description="Пароль" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PathLength" Caption="Длина пути" Description="Длина пути" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Patronimic" Caption="Отчество" Description="Отчество" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Pavilion" Caption="Павильон" Description="Павильон" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PavilionCount" Caption="Кол-во пав." Description="Количество павильонов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PavilionID" Caption="Павильон" Description="Павильон" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PerformanceDate" Caption="Дата вып-я" Description="Дата выполнения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Period" Caption="Интервал" Description="Интервал" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PermissionDocumentName" Caption="Регл. док." Description="Регламентирующий документ" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PermissionID" Caption="Разрешение" Description="Разрешение" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Person" Caption="Лицо" Description="Лицо" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PersonID" Caption="Лицо" Description="Лицо" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PersonType" Caption="Тип" Description="Тип лица" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Phone" Caption="Телефон" Description="Номер телефона" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PhotoID" Caption="Фото" Description="Фотография" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PictureID" Caption="Внешний вид" Description="Внешний вид" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PictureOrderNumber" Caption="№ п./п." Description="Порядковый номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Place" Caption="Место" Description="Место" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PlaceOfBirth" Caption="Место рожд." Description="Место рождения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PlacePointID" Caption="Место расп." Description="Место расположения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PlanCheckDate" Caption="План. дата пров-ки" Description="Плановая дата проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PlannedDate" Caption="План. дата" Description="Плановая дата" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PlanPerformanceDate" Caption="План. дата вып-я" Description="Плановая дата выполнения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PointCount" Caption="Точек" Description="Количество точек в слое" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PointID" Caption="Координаты" Description="Координаты" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PolylineID" Caption="Полилиния" Description="Полилиния" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population" Caption="Население" Description="Население, человек" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_0_4" Caption="0-4 года" Description="Возраст 0-4 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_10_14" Caption="10-14 лет" Description="Возраст 10-14 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_15_19" Caption="15-19 лет" Description="Возраст 15-19 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_20_24" Caption="20-24 лет" Description="Возраст 20-24 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_25_29" Caption="25-29 лет" Description="Возраст 25-29 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_30_34" Caption="30-34 года" Description="Возраст 30-34 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_35_39" Caption="35-39 лет" Description="Возраст 35-39 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_40_44" Caption="40-44 года" Description="Возраст 40-44 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_45_49" Caption="45-49 лет" Description="Возраст 45-49 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_5_9" Caption="5-9 лет" Description="Возраст 5-9 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_50_54" Caption="50-54 года" Description="Возраст 50-54 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_55_59" Caption="55-59 лет" Description="Возраст 55-59 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_60_64" Caption="60-64 года" Description="Возраст 60-64 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_65_69" Caption="65-69 лет" Description="Возраст 65-69 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_70_74" Caption="70-74 года" Description="Возраст 70-74 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_75_79" Caption="75-79лет" Description="Возраст 75-79лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_80_84" Caption="80-84 года" Description="Возраст 80-84 года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Population_Older_84" Caption="Старше 84 лет" Description="Старше 84 лет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Position" Caption="Должность" Description="Должность" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PositionID" Caption="Должность" Description="Должность" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PostalCode" Caption="Почт. инд." Description="Почтовый индекс" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="PostCount" Caption="Кол-во постов" Description="Количество постов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Price" Caption="Цена" Description="Цена" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="Priority" Caption="Приоритет" Description="Приоритет" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProcessedCount" Caption="Обработанных" Description="Количество обработанных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProcessedFilePath" Caption="Обработанный файл" Description="Обработанный файл" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProcessInfoID" Caption="Процесс" Description="Процесс" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProcessingTime" Caption="Время обработки" Description="Время обработки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProcessName" Caption="Процесс" Description="Название процесса" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProfileIntervalsCount" Caption="Интервалов" Description="Количество интервалов движения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ProfileName" Caption="Профиль" Description="Профиль отображения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Pupils" Caption="Учащиеся" Description="Учащиеся" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="QualifiedAddressId" Caption="Уточн. по пер. дор." Description="Уточнение по пересекающей дороге" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="QualifiedComment" Caption="Комментарий" Description="Комментарий" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Rank" Caption="Ранг" Description="Ранг" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ReadOnly" Caption="Только для чтения" Description="Только для чтения" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="RealtyDestination" Caption="Назначение" Description="Назначение объекта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RealtyDestinationID" Caption="Назначение" Description="Назначение объекта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RecieveDate" Caption="Дата получения" Description="Дата получения" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RecieveLineWorkOrder" Caption="Нар. выдан" Description="Дата получения наряда" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Records" Caption="Записей" Description="Записей" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Region" Caption="Регион" Description="Регион" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RegionID" Caption="Регион" Description="Регион" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RelationPosition" Caption="Отн. полож." Description="Относительное положение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Relations0" Caption="Отношение" Description="Отношение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ResponseEmployee" Caption="Отв. сотр-к" Description="Ответственный сотрудник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ResponseEmployeeID" Caption="Отв. сотр-к" Description="Ответственный сотрудник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ResponsiblePersonID1" Caption="Контролёр 1" Description="Контролёр ревизор 1" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ResponsiblePersonID2" Caption="Контролёр 2" Description="Контролёр ревизор 2" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RestrictedZoneTypeID" Caption="Тип ЗОД" Description="Тип зоны ограничения движения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RevisionID" Caption="Ревизия" Description="Ревизия" Category="Состояние" Visible="true" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="RightCorner" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadCount" Caption="Кол-во дорог" Description="Количество дорог" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadID" Caption="Дорога" Description="Дорога" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadName" Caption="Дорога" Description="Дорога" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadPointID" Caption="Точка ДС" Description="Точка дорожной сети" Category="VISUM" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="RoadSegment" Caption="Отр. дор." Description="Отрезок дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadSegmentID" Caption="Отр. дор." Description="Отрезок дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadSegmentTypeID" Caption="Тип Отр. дор." Description="Тип отрезка дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadSide" Caption="Стор. дор." Description="Сторона дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadType" Caption="Тип дороги" Description="Тип дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoadTypeID" Caption="Тип дороги" Description="Тип дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoleID" Caption="Роль" Description="Роль" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoleName" Caption="Роль" Description="Роль" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoomOwner" Caption="Собств-к помещ." Description="Собственник помещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RoomOwnerID" Caption="Собств-к помещ." Description="Собственник помещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RowColor" Caption="Цвет" Description="Цвет отображения" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="RowColorView" Caption="Цвет" Description="Цвет отображения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Samples" Caption="Измерений" Description="Количество измерений" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ScenarioData" Caption="Структ. сц." Description="Структура сценария" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ScheduleType" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SchemaID" Caption="Схема ОП" Description="Схема ОП" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Season" Caption="Сезон" Description="Сезон года" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SeasonType" Caption="Сезон" Description="Сезон" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SeatCapability" Caption="Число сидячих мест" Description="Число сидячих мест" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Secretary" Caption="Руководитель" Description="Руководитель" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SecretaryID" Caption="Руководитель" Description="Руководитель" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SendDate" Caption="Дата отправки" Description="Дата отправки" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SeniorBrigadirID" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Series" Caption="Серия" Description="Серия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ShapeID" Caption="Фигура" Description="Фигура" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ShortName" Caption="Сокр. назв." Description="Сокращённое название" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SignCode" Caption="Код ИЗО" Description="Код ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SignCount" Caption="К-во ИЗО" Description="Количество ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Signed" Caption="Наличие знака" Description="Наличие знака" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SignType" Caption="Тип ИЗО" Description="Тип ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SignTypeID" Caption="Тип ИЗО" Description="Тип ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Size" Caption="Размер" Description="Размер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SmartCard" Caption="БСК" Description="БСК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SmartCardKind" Caption="Вид БСК" Description="Вид типа БСК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SmartCardKindID" Caption="Вид БСК" Description="Вид типа БСК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SmartCardNumber" Caption="№ БСК" Description="Номер БСК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SmartCardType" Caption="Тип БСК" Description="Тип БСК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SmartCardTypeID" Caption="Тип БСК" Description="Тип БСК" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SoftwareUpdateDate" Caption="Обновлено" Description="Дата обновления ПО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SourceID" Caption="Источник" Description="Источник" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SourceStatusID" Caption="Исходный статус" Description="Исходный статус" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SourceZoneID" Caption="Источник" Description="Исходный район" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Square" Caption="Пл-дь" Description="Площадь" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StartDate" Caption="Дата начала" Description="Дата начала" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StartPoint" Caption="Нач. пункт" Description="Начальный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StartStopPointID" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StartTerminalID" Caption="Нач. пункт" Description="Начальный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StartTime" Caption="Время начала" Description="Время начала" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StartWorkDate" Caption="Время нач. раб." Description="Время начала работы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StateNumber" Caption="Гос. №" Description="Государстенный номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Status" Caption="Статус" Description="Статус" Category="Состояние" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StatusCode" Caption="Статус" Description="Статус" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StatusID" Caption="Статус" Description="Статус" Category="Состояние" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopArea" Caption="Зона ост-ки" Description="Зона остановки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopAreaID" Caption="Зона ост-ки" Description="Зона остановки" Category="VISUM" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="StopID" Caption="Остановка" Description="Остановка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointChecksCount" Caption="Проверок" Description="Количество проверок остановочных пунктов" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointCount" Caption="Кол-во ОП" Description="Количество остановочных пунктов" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointID" Caption="ОП" Description="Остановочный пункт" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointName" Caption="Название ОП" Description="Название ОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointNameID" Caption="Назв. УПП" Description="Название УПП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointNumber" Caption="Номер ОП" Description="Номер ОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointPassangerFlowTableID" Caption="Таблица проверок" Description="Таблица проверок" Visible="false" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointRemain" Caption="Пассажиров на ОП" Description="Осталось пассажиров на ОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPoints" Caption="ОП" Description="Остановочные пункты" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointStatus" Caption="Сост. ОП" Description="Состояние ОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopPointStatusID" Caption="Сост-е ОП" Description="Состояние ОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignDemandCount" Caption="Кол-во заявок" Description="Кол-во заявок" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignDemandID" Caption="Заявка" Description="Заявка на работы по ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignFaultType" Caption="Неиспр-ть ИЗО" Description="Вид неисправности ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignFaultTypeID" Caption="Неиспр-ть ИЗО" Description="Вид неисправности ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignID" Caption="ИЗО" Description="ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignName" Caption="Назв. ИЗО" Description="Название ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignStatus" Caption="Статус ИЗО" Description="Статус ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignStatusID" Caption="Сост-е ИЗО" Description="Состояние ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignType" Caption="Тип ИЗО" Description="Тип ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignTypeID" Caption="Тип ИЗО" Description="Тип ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignWorkStatus" Caption="Статус работ" Description="Статус работ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignWorkStatusID" Caption="Вып-е раб. по ИЗО" Description="Статус выполнения работ по ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StopSignWorkTypeID" Caption="Тип раб. по ИЗО" Description="Тип работ по ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StyleID" Caption="Стиль" Description="Стиль" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="StyleString" Caption="Стиль" Description="Стиль" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Surname" Caption="Фамилия" Description="Фамилия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="SystemID" Caption="Система" Description="Система" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TableName" Caption="Имя таблицы" Description="Имя таблицы" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TaskID" Caption="Задача" Description="Задача" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TerminalID" Caption="Автостанция" Description="Автостанция" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TerminalType" Caption="Тип КП" Description="Тип КП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ThroughDate" Caption="Дата окочания" Description="Дата окончания действия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TimeProfileCheckTableID" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="TimeProfileID" Caption="Расписание" Description="Расписание" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TimeProfileIntervalCount" Caption="Кол-во интерв." Description="Количество интервалов движения" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TimeProfileIntervalID" Caption="Интервал" Description="Интервал" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ToNode" Caption="Кон. узел" Description="Конечный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ToNodeID" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ToPoint" Caption="Конечная точка" Description="Конечная точка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ToPointID" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ToRoadID" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TotalCapability" Caption="Общее число мест" Description="Общее число мест" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TotalCount" Caption="Общее кол-во" Description="Общее количество" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TrackLength" Caption="Длина" Description="Длина трассы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransactionCount" Caption="Транзакций" Description="Количество транзакций" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="TransactionLoading" Caption="Загр. тр-ции" Description="Загрузка транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransactionLoadingID" Caption="Загрузка" Description="Идентификатор загрузки транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Transactions" Caption="Тран-ций" Description="Количество транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransactionSourceID" Caption="Источник транзакции" Description="Источник транзакции" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransactionUploadDate" Caption="Вр. заг. тр." Description="Время загрузки транзакции" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransportSystem" Caption="Трансп. сист." Description="Транспортная система" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransportSystemID" Caption="Трансп. сист." Description="Транспортная система" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransportSystemName" Caption="Трансп. сист." Description="Транспортная система" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransportType" Caption="Транспорт" Description="Вид транспорта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransportTypeID" Caption="Тип ТС" Description="Тип транспортной системы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TransportTypeString" Caption="Виды транспорта" Description="Виды транспорта" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TripNumber" Caption="Рейс" Description="Номер рейса" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Trips" Caption="Поездок" Description="Количество совершённых поездок" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TripsPerDay" Caption="Рейсов" Description="Среднее количество рейсов в день" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TurnID" Caption="Поворот" Description="Поворот" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Type" Caption="Тип" Description="Тип" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TypeCode" Caption="Тип" Description="Артикул типа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="TypeID" Caption="Тип" Description="Тип" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="UnitsCount" Caption="Единиц" Description="Количество единиц" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="UserID" Caption="Пользователь" Description="Пользователь" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="UserName" Caption="Пользователь" Description="Имя пользователя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="V0" Caption="V0 [км/с]" Description="Свободная скорость [км/с]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Value" Caption="Среднее" Description="Среднее значение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehCombNo" Caption="Секционность" Description="Секционность ТС" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleBrand" Caption="Марка" Description="Марка ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleCombinationID" Caption="Секционность" Description="Секционность ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleCount" Caption="Кол-во ТС" Description="Количество транспортных средств" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleFilling" Caption="Наполнение ТС" Description="Наполнение прибывшего ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleIssueID" Caption="Выпуск ТС" Description="Выпуск ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleIssueLoadingID" Caption="Загрузка" Description="Идентификатор загрузки выпусков ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleIssueNumber" Caption="Выпуск ТС" Description="Номер выпуска ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleJourneyCount" Caption="Кол-во поездок" Description="Количество поездок" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleNumber" Caption="Борт. или гос. №" Description="Борт. или гос. №" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleStopPointID" Caption="Точка ост. ТС" Description="Точка остановки ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleTrackID" Caption="Трасса" Description="Трасса ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleTripID" Caption="Рейс" Description="Рейс ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleType" Caption="Тип ТС" Description="Тип ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleTypeCode" Caption="Тип ТС" Description="Код типа ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleTypeID" Caption="Тип ТС" Description="Тип ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleTypeName" Caption="Тип ТС" Description="Название типа ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleUnitClass" Caption="Вмест." Description="Класс вместимости ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleUnitClassID" Caption="Вмест." Description="Класс вместимости ТС" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleUnitCode" Caption="Код ТС" Description="Код транспортного средства" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleUnitFleet" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleUnitFleetID" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VehicleUnitID" Caption="ТС" Description="Транспортное средство" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Version" Caption="Версия" Description="Версия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ViaNode" Caption="Пром. узел" Description="Промежуточный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ViaNodeID" Caption="Пром. узел" Description="Промежуточный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ViewProfileID" Caption="Профиль отображения" Description="Профиль отображения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ViewProfileItemID" Caption="Элемент профиля" Description="Элемент профиля отображения" Visible="true" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Violations" Caption="Нарушения" Description="Нарушения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ViolationType" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ViolationTypeID" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VisumName" Caption="Название" Description="Название" Category="VISUM" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VisumNo" Caption="Номер" Description="Номер" Category="VISUM" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="VX" Caption="Скорость X" Description="Скорость X" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="VY" Caption="Скорость Y" Description="Скорость Y" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WarningCount" Caption="Предупр-ий" Description="Количество предупреждений" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Warrant" Caption="НЗ" Description="Наряд-задание" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WarrantID" Caption="Наряд-задание" Description="Наряд-задание" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WarrantNumber" Caption="Наряд-задание" Description="Номер наряда-задания" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Weather" Caption="Погода" Description="Погода" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WeekDay" Caption="День недели" Description="День недели" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WeekDayType" Caption="День недели" Description="Тип дня недели" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Width" Caption="Ширина" Description="Ширина" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkChecksCount" Caption="Проверок" Description="Количество проверок работ по ИЗО" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkDay" Caption="Рабочий день" Description="Рабочий день" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkDescription" Caption="Работы" Description="Описание работ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkLoad" Caption="Нагрузка" Description="Количество перевезённых пассажиров" Category="Замеры" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription ColumnName="WorkPlaces" Caption="Рабочих мест" Description="Рабочих мест" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkPlaceService" Caption="Обсл. мест" Description="Обслуживающих мест" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkStatus" Caption="Сост. раб." Description="Состояние работ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkType" Caption="Вид работ" Description="Вид работ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="WorkTypes" Caption="Виды раб." Description="Виды работ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="X" Caption="X" Description="Координата X" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="Y" Caption="Y" Description="Координата Y" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription ColumnName="ZoneID" Caption="Зона" Description="Зона" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="CheckDate" Caption="Дата проверки" Description="Дата проверки" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="CheckStatusID" Caption="Статус проверки" Description="Статус проверки" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="Data" Caption="Данные" Description="Данные" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="DayType" Caption="Тип дня" Description="Тип дня недели" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="EquipmentType" Caption="Тип оборудования" Description="Тип оборудования СЭКОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="ExpiryDate" Caption="Окончание" Description="Дата окончания действия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="FirstDate" Caption="Начало" Description="Дата первых данных" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="FtpDestinationFolder" Caption="FTP - обработанные" Description="Папка обработанных документов (FTP)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="LastDate" Caption="Окончание" Description="Дата последних данных" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="MaxFractile" Caption="Макс" Description="Квантиль по уровню 0.95" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="Median" Caption="Медиана" Description="Медиана" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="MinFractile" Caption="Мин" Description="Квантиль по уровню 0.05" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="" ColumnName="Path" Caption="Путь" Description="Путь" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="PlanTripCount" Caption="Рейсов" Description="Плановое количество рейсов" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="" ColumnName="RemainingResource" Caption="Ресурс" Description="Оставшийся ресурс" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ci_Man" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ci_Man" ColumnName="OrganizationID" Caption="Место работы" Description="Место работы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ci_ManView" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="cor_History" ColumnName="RevisionID" Caption="Ревизия" Description="Ревизия" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="cor_HistoryCell" ColumnName="DisplayValue" Caption="Значение" Description="Значение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="cor_HistoryCell" ColumnName="FieldName" Caption="Поле" Description="Поле" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="cor_HistoryCell" ColumnName="HistoryID" Caption="История" Description="История изменений" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="cor_HistoryCell" ColumnName="TypeCode" Caption="Тип данных" Description="Тип данных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_BoardEquipment" ColumnName="Type" Caption="Тип оборудования" Description="Тип оборудования СЭКОП" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_BoardEquipmentView" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_BoardEquipmentView" ColumnName="Operator" Caption="Перевозчик" Description="Перевозчик" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_BoardEquipmentView" ColumnName="OperatorBranch" Caption="Филиал" Description="Филиал перевозчика" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_BoardEquipmentView" ColumnName="TransactionCount" Caption="Транзакций" Description="Количество транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="fcs_BoardEquipmentView" ColumnName="Type" Caption="Тип оборудования" Description="Тип оборудования СЭКОП" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="fcs_CheckEmployee" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_CheckEmployeeView" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_CrossLinkToACS" ColumnName="DocumentTypeID" Caption="Тип документа" Description="Тип документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_DataLoadingView" ColumnName="NotLoadedCount" Caption="Не загружено" Description="Количество незагруженных транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_Equipment" ColumnName="Type" Caption="Тип оборудования" Description="Тип оборудования СЭКОП" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_HandController" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_HandController" ColumnName="Type" Caption="Тип оборудования" Description="Тип оборудования СЭКОП" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_HandControllerView" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_HandControllerView" ColumnName="Operator" Caption="Перевозчик" Description="Перевозчик" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_HandControllerView" ColumnName="OperatorBranch" Caption="Филиал" Description="Филиал перевозчика" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_HandControllerView" ColumnName="TransactionCount" Caption="Транзакций" Description="Количество транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="fcs_HandControllerView" ColumnName="Type" Caption="Тип оборудования" Description="Тип оборудования СЭКОП" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_SmartCardBlackList" ColumnName="FileID" Caption="Файл" Description="Файл" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_SmartCardBlackList" ColumnName="LastUsedDate" Caption="Дата использования" Description="Дата последнего использования" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_SmartCardBlackList" ColumnName="Trips" Caption="Поездок" Description="Количество совершённых поездок" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_Software" ColumnName="FileDataGuid" Caption="Данные файла" Description="Идентификатор данных файла" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionLoading" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_TransactionLoading" ColumnName="TotalCount" Caption="Транзакций" Description="Количество транзакций в файле" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionLoadingView" ColumnName="FirstRecordDate" Caption="Первая транзакция" Description="Время первой транзакции" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionLoadingView" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_TransactionLoadingView" ColumnName="LoadedCount" Caption="Загружено" Description="Количество загруженных транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionLoadingView" ColumnName="NotLoadedCount" Caption="Не загружено" Description="Количество незагруженных транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionLoadingView" ColumnName="TotalCount" Caption="Транзакций" Description="Количество транзакций в файле" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionSource" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_TransactionSource" ColumnName="OperatorID" Caption="Перевозчик" Description="Перевозчик" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionSourceView" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_TransactionView" ColumnName="Flags" Caption="Флаги" Description="Флаги транзакций" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_TransactionView" ColumnName="VehicleUnitID" Caption="" Description="Идентификатор транспортного средства" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="fcs_VehicleIssueLoadingView" ColumnName="NotLoadedCount" Caption="Не загружено" Description="Количество незагруженных транзакций" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="fcs_VehicleTripView" ColumnName="ID" Caption="№" Description="Идентификатор выпуска ТС" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ftp_OperationLog" ColumnName="Operation" Caption="Как" Description="Операция (создан, изменён, изменены атрибуты, удалён)" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_Address" ColumnName="Comment" Caption="Уточнение" Description="Уточнение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_Address" ColumnName="HouseID" Caption="Дом" Description="Дом" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_QualifiedAddress" ColumnName="Comment" Caption="Уточн-е по пер." Description="Уточнение по пересечению" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_QualifiedAddress" ColumnName="CrossHouseID" Caption="Дом по пер. дор." Description="Дом по пересекающей дороге" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_QualifiedAddress" ColumnName="CrossRoadID" Caption="Пер. дор." Description="Пересекающая дорога" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_QualifiedAddress" ColumnName="CrossRoadSide" Caption="Стор. пер. дор." Description="Сторона пересекающей дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_Region" ColumnName="ID" Caption="Ид." Description="Уникальный идентификатор" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="geo_RegionView" ColumnName="ID" Caption="Ид." Description="Уникальный идентификатор" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="geo_Road" ColumnName="FromRoadID" Caption="От дор." Description="Начинается от дороги" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_Road" ColumnName="FullName" Caption="Полн. назв." Description="Полное название" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_Road" ColumnName="ToRoadID" Caption="К дор." Description="Направлена к дороге" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="geo_RoadView" ColumnName="RoadType" Caption="Сокр. типа дор." Description="Сокращение типа дороги" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_Line" ColumnName="ID" Caption="Ид." Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="ln_LineView" ColumnName="ID" Caption="Ид." Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="ln_Stop" ColumnName="Code" Caption="Код" Description="Код" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopArea" ColumnName="Code" Caption="Код" Description="Код" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopPoint" ColumnName="InspectorID" Caption="Пров. сотр-к" Description="Проверяющий сотрудник" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_StopPoint" ColumnName="Number" Caption="Номер" Description="Номер" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_StopPoint2LineRouteView" ColumnName="LineRouteID" Caption="ВМ" Description="Варианты маршрута" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopPoint2LineRouteView" ColumnName="Name" Caption="Назв. УСИЗО" Description="Название УСИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopPoint2LineRouteView" ColumnName="StopPointName" Caption="Назв. УПП" Description="Название УПП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopPointView" ColumnName="ID" Caption="Ид." Description="Уникальный идентификатор" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="" />
+    <FieldDescription TableName="ln_StopPointView" ColumnName="NameCount" Caption="Кол-во назв. УПП" Description="Количество названий УПП" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_StopSign" ColumnName="InspectorID" Caption="Пров. сотр-к" Description="Проверяющий сотрудник" Category="Проверка" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_StopSignArrangement" ColumnName="PictureID" Caption="Пример" Description="Пример" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopSignMount" ColumnName="Diameter" Caption="Диаметр [мм]" Description="Диаметр [мм]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopSignMount" ColumnName="Height" Caption="Высота [м]" Description="Высота [м]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopSignMount" ColumnName="PictureID" Caption="Вид" Description="Вид" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopSignMount" ColumnName="Width" Caption="Ширина [м]" Description="Ширина [м]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_StopSignView" ColumnName="Mount" Caption="Вид крепления" Description="Вид крепления" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_TimeProfileInterval" ColumnName="ID" Caption="№" Description="Номер" Visible="true" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_TimeProfileInterval" ColumnName="TimeProfileID" Caption="Расписание" Description="Расписание" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_TransportSystem2StopPoint" ColumnName="SystemID" Caption="Трансп. сис." Description="Транспортная система" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="ln_VehicleUnit" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="ln_VehicleUnitView" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="map_Layer" ColumnName="TableName" Caption="Таблица" Description="Таблица" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" ApplicationName="АРМ ГИС ТИ ГППТ" />
+    <FieldDescription TableName="map_ViewProfileItem" ColumnName="LayerID" Caption="Слой" Description="Слой" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_CheckInitiator" ColumnName="CorrespondenceID" Caption="Внешний документ" Description="Внешний документ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_ControlRevisionCheck" ColumnName="Code" Caption="Код пров." Description="Код проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_ControlRevisionCheckView" ColumnName="Code" Caption="Код пров." Description="Код проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_PassengerFlowMeasurement" ColumnName="Alight" Caption="Вышло" Description="Вышло" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_PassengerFlowMeasurement" ColumnName="Board" Caption="Вошло" Description="Вошло" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_PassengerFlowTable" ColumnName="LineID" Caption="Маршрут" Description="Маршрут" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_PassengerFlowTable" ColumnName="MeasureDate" Caption="Дата изм-я" Description="Дата измерения" Category="" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_PassengerFlowTable" ColumnName="Number" Caption="Номер" Description="Номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="pcc_StopPointPassangerFlowMeasurement" ColumnName="Alight" Caption="Вышло" Description="Вышло" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="pcc_StopPointPassangerFlowMeasurement" ColumnName="Board" Caption="Вошло" Description="Вошло" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_StopPointPassangerFlowTable" ColumnName="MeasureDate" Caption="Дата изм-я" Description="Дата измерения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="pcc_StopPointPassangerFlowTable" ColumnName="Number" Caption="Номер" Description="Номер" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="rms_Correspondence" ColumnName="DocumentTypeID" Caption="Тип док-та" Description="Тип документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Correspondence" ColumnName="FileEntryID" Caption="Файл документа" Description="Файл документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_CorrespondenceView" ColumnName="Name" Caption="Тип документа" Description="Тип документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Department" ColumnName="DataSourceID" Caption="Ист-к данных" Description="Источник данных" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_DepartmentBaseView" ColumnName="ParentDepartment" Caption="Главное подразделение" Description="Главное подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_DocumentType" ColumnName="Name" Caption="Назв. типа док-та" Description="Название типа документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_DocumentType" ColumnName="TableName" Caption="Назв. табл." Description="Название таблицы" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_DocumentType" ColumnName="TableName" Caption="Назв. табл." Description="Название таблицы" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="false" ApplicationName="АРМ КСТИ" />
+    <FieldDescription TableName="rms_DocumentType" ColumnName="TableName" Caption="Назв. табл." Description="Название таблицы" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="false" ApplicationName="АРМ ГИС ТИ ГППТ" />
+    <FieldDescription TableName="rms_DocumentTypeBaseView" ColumnName="Name" Caption="Назв. типа док-та" Description="Название типа документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_DocumentTypeBaseView" ColumnName="TableName" Caption="Назв. табл." Description="Назв. табл." Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Employee" ColumnName="DepartmentID" Caption="Подразделение" Description="Подразделение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Employee" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Employee" ColumnName="UserID" Caption="Пользователь" Description="Имя пользователя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_EmployeeView" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_EmployeeView" ColumnName="Position" Caption="Должность" Description="Должность" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Photo" ColumnName="ID" Caption="Из-е" Description="Изображение" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Photo" ColumnName="Lighting" Caption="Усл. освещ-я" Description="Условия освещения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Photo" ColumnName="Model" Caption="Модель камеры" Description="Модель камеры" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_Photo" ColumnName="Weather" Caption="Погода" Description="Погода" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_ReportView" ColumnName="EntityID" Caption="Документ" Description="Идентификатор документа" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="rms_ReportView" ColumnName="FileDataGuid" Caption="ГУИД" Description="Глобальный уникальный идентификатор файла данных отчета" Visible="false" VisibleOnCreate="false" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="rms_ReportView" ColumnName="ID" Caption="Ид." Description="Идентификатор отчета" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="rms_Status" ColumnName="DocumentTypeID" Caption="Назв. типа док-та" Description="Название типа документа" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_StatusUpdatePlan" ColumnName="DocumentTypeID" Caption="Тип док-та" Description="Тип документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_StatusView" ColumnName="DocumentCode" Caption="Артикул типа документа" Description="Артикул типа документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rms_StatusView" ColumnName="DocumentName" Caption="Назв. типа док-та" Description="Название типа документа" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_Node" ColumnName="ControlType" Caption="Рег-е дв-я" Description="Вид регулирования движения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_NodeView" ColumnName="ControlType" Caption="Рег-е дв-я" Description="Вид регулирования движения" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_RoadSegment" ColumnName="FromNodeID" Caption="Нач. отр." Description="Начало отрезка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_RoadSegment" ColumnName="Length" Caption="Длина отрезка[км]" Description="Длина отрезка[км]" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_RoadSegment" ColumnName="ToNodeID" Caption="Кон. отр." Description="Конец отрезка" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_Turn" ColumnName="FromNodeID" Caption="Нач. узел" Description="Начальный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_Turn" ColumnName="ToNodeID" Caption="Кон. узел" Description="Конечный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_Turn" ColumnName="ViaNodeID" Caption="Центр. узел" Description="Центральный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="rn_TurnView" ColumnName="ViaNode" Caption="Центр. узел" Description="Центральный узел" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="sec_UserRoleView" ColumnName="Name" Caption="Имя" Description="Имя" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_Material" ColumnName="Price" Caption="Цена" Description="Цена" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="tic_StopPointView" ColumnName="CrossroadDistance" Caption="Расст. до. перекр." Description="Расстояние до перекрестка" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopPointView" ColumnName="Direction" Caption="Расст. до. перекр." Description="Расстояние до перекрестка" Visible="false" VisibleOnCreate="false" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopPointView" ColumnName="NameCount" Caption="Кол-во назв. УПП" Description="Количество названий УПП" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="tic_StopSignCheck" ColumnName="CorrespondenceID" Caption="Основ-е д. проверки" Description="Основание для проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopSignCheck" ColumnName="StopSignID" Caption="ИЗО" Description="ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopSignCheck" ColumnName="StopSignStatusID" Caption="Сост-е ИЗО" Description="Состояние ИЗО" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopSignCheckView" ColumnName="Correspondence" Caption="Основ-е д. проверки" Description="Основание для проверки" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopSignDemand" ColumnName="CorrespondenceID" Caption="Внешний документ" Description="Внешний документ" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+    <FieldDescription TableName="tic_StopSignDemand" ColumnName="Number" Caption="Номер" Description="Номер" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" ApplicationName="АРМ КСТИ" />
+    <FieldDescription TableName="tic_StopSignView" ColumnName="ID" Caption="№" Description="Уникальный идентификатор" Visible="true" VisibleOnCreate="true" ReadOnly="true" ReadOnlyOnCreate="true" />
+    <FieldDescription TableName="tm_StopPointLoadView" ColumnName="LineRouteString" Caption="Все ВМ ОП" Description="Все варианты маршрутов на ОП" Visible="true" VisibleOnCreate="true" ReadOnly="false" ReadOnlyOnCreate="false" />
+  </Fields>
+  <Tables>
+    <TableDescription TableName="ci_Man" IsView="true" DisplayName="Физические лица" />
+    <TableDescription TableName="ci_ManView" IsView="false" DisplayName="Физические лицаo " />
+    <TableDescription TableName="ci_Organization" IsView="false" DisplayName="Юридические лица " />
+    <TableDescription TableName="ci_OrganizationForm" IsView="false" DisplayName="Организационно-правовые формы" />
+    <TableDescription TableName="ci_OrganizationView" IsView="false" DisplayName="Юридические лица" />
+    <TableDescription TableName="ci_Passport" IsView="false" DisplayName="Паспорные данные" />
+    <TableDescription TableName="ci_PassportBaseView" IsView="true" DisplayName="Паспорта" />
+    <TableDescription TableName="ci_Person" IsView="false" DisplayName="Лица" />
+    <TableDescription TableName="ci_PersonView" IsView="true" DisplayName="Лица" />
+    <TableDescription TableName="cor_Block" IsView="false" DisplayName="Блокировки" />
+    <TableDescription TableName="cor_ClientApplication" IsView="false" DisplayName="АРМ" />
+    <TableDescription TableName="cor_DataSource" IsView="false" DisplayName="Источники данных" />
+    <TableDescription TableName="cor_Entity" IsView="false" DisplayName="Сущности" />
+    <TableDescription TableName="cor_Entity2Picture" IsView="false" DisplayName="Списки изображений" />
+    <TableDescription TableName="cor_EntityBaseView" IsView="true" DisplayName="Сущности" />
+    <TableDescription TableName="cor_FileData" IsView="false" DisplayName="Данные" />
+    <TableDescription TableName="cor_FileEntry" IsView="false" DisplayName="Файловые документы" />
+    <TableDescription TableName="cor_FileEntryView" IsView="false" DisplayName="Файлы" />
+    <TableDescription TableName="cor_History" IsView="false" DisplayName="Истории объектов" />
+    <TableDescription TableName="cor_HistoryCell" IsView="false" DisplayName="Запись истории" />
+    <TableDescription TableName="cor_Miniature" IsView="false" DisplayName="Миниатюры" />
+    <TableDescription TableName="cor_Picture" IsView="false" DisplayName="Изображения" />
+    <TableDescription TableName="cor_PictureView" IsView="false" DisplayName="Изображения" />
+    <TableDescription TableName="cor_Revision" IsView="false" DisplayName="Ревизии" />
+    <TableDescription TableName="fcs_BoardEquipment" IsView="false" DisplayName="Бортовое оборудование" />
+    <TableDescription TableName="fcs_BoardEquipmentView" IsView="false" DisplayName="Бортовое оборудование" />
+    <TableDescription TableName="fcs_CheckEmployee" IsView="false" DisplayName="Контроллирующие сотрудники" />
+    <TableDescription TableName="fcs_CheckEmployeeView" IsView="false" DisplayName="Контроллирующие сотрудники" />
+    <TableDescription TableName="fcs_CrossLinkToACS" IsView="false" DisplayName="Перекрёстные связи с АСУ" />
+    <TableDescription TableName="fcs_CrossLinkToACS" IsView="false" DisplayName="Перекрёстные связи" ApplicationName="АРМ ГИС ТИ ГППТ" />
+    <TableDescription TableName="fcs_DataLoading" IsView="false" DisplayName="Загрузки данных" />
+    <TableDescription TableName="fcs_DataLoadingView" IsView="false" DisplayName="Загрузки данных" />
+    <TableDescription TableName="fcs_EquipedOperatorBranchListView" IsView="true" />
+    <TableDescription TableName="fcs_Equipment" IsView="false" DisplayName="Оборудование" />
+    <TableDescription TableName="fcs_EquipmentDefect" IsView="false" DisplayName="Виды неисправности оборудования" />
+    <TableDescription TableName="fcs_EquipmentDefectBaseView" IsView="true" DisplayName="Перечень неисправностей оборудования" />
+    <TableDescription TableName="fcs_EquipmentView" IsView="false" DisplayName="Оборудование СЭКОП" />
+    <TableDescription TableName="fcs_HandController" IsView="false" DisplayName="Ручные контроллеры" />
+    <TableDescription TableName="fcs_HandControllerView" IsView="false" DisplayName="Ручные контроллеры" />
+    <TableDescription TableName="fcs_MetroEquipment" IsView="false" DisplayName="Оборудование метрополитена" />
+    <TableDescription TableName="fcs_RawTransactionView" IsView="true" DisplayName="Транзакции" />
+    <TableDescription TableName="fcs_ReportEquipmentCountView" IsView="false" />
+    <TableDescription TableName="fcs_SmartCard" IsView="false" DisplayName="Бесконтактные смарт-карты" />
+    <TableDescription TableName="fcs_SmartCardBlackList" IsView="false" DisplayName="Чёрный список БСК" />
+    <TableDescription TableName="fcs_SmartCardBlackListFile" IsView="false" DisplayName="Файлы чёрных списков БСК" />
+    <TableDescription TableName="fcs_SmartCardBlackListSource" IsView="false" DisplayName="Источники чёрных списков БСК" />
+    <TableDescription TableName="fcs_SmartCardBlackListView" IsView="false" DisplayName="Чёрный список БСК" />
+    <TableDescription TableName="fcs_SmartCardKind" IsView="false" DisplayName="Виды типов БСК" />
+    <TableDescription TableName="fcs_SmartCardKindView" IsView="false" DisplayName="Виды типов БСК" />
+    <TableDescription TableName="fcs_SmartCardType" IsView="false" DisplayName="Типы БСК" />
+    <TableDescription TableName="fcs_SmartCardView" IsView="false" DisplayName="Бесконтактные смарт-карты" />
+    <TableDescription TableName="fcs_SmartCardWhiteList" IsView="false" DisplayName="Белый список БСК" />
+    <TableDescription TableName="fcs_SmartCardWhiteListView" IsView="true" DisplayName="Белый список БСК" />
+    <TableDescription TableName="fcs_Software" IsView="false" DisplayName="Программное обеспечение" />
+    <TableDescription TableName="fcs_SoftwareView" IsView="false" DisplayName="Программное обеспечение" />
+    <TableDescription TableName="fcs_Transaction" IsView="false" DisplayName="Транзакции" />
+    <TableDescription TableName="fcs_TransactionLoading" IsView="false" DisplayName="Загрузки транзакций" />
+    <TableDescription TableName="fcs_TransactionLoadingView" IsView="false" DisplayName="Загрузки транзакций" />
+    <TableDescription TableName="fcs_TransactionLoadReport" IsView="false" DisplayName="Отчёты о загрузке транзакций" />
+    <TableDescription TableName="fcs_TransactionLoadReportBaseView" IsView="true" DisplayName="Отчёты о загрузке транзакций" />
+    <TableDescription TableName="fcs_TransactionSource" IsView="false" DisplayName="Источники транзакций" />
+    <TableDescription TableName="fcs_TransactionSourceView" IsView="false" DisplayName="Источники транзакций" />
+    <TableDescription TableName="fcs_TransactionView" IsView="false" DisplayName="Транзакции" />
+    <TableDescription TableName="fcs_VehicleIssue" IsView="false" DisplayName="Выпуски ТС" />
+    <TableDescription TableName="fcs_VehicleIssueLoading" IsView="false" DisplayName="Загрузки выпусков ТС" />
+    <TableDescription TableName="fcs_VehicleIssueLoadingView" IsView="false" DisplayName="Загрузки выпусков ТС" />
+    <TableDescription TableName="fcs_VehicleIssueView" IsView="false" DisplayName="Выпуски ТС" />
+    <TableDescription TableName="fcs_VehicleTrip" IsView="false" DisplayName="Рейсы ТС" />
+    <TableDescription TableName="fcs_VehicleTrip2CheckEmployee" IsView="false" DisplayName="Связующая таблица рейсов ТС и сотрудников" />
+    <TableDescription TableName="fcs_VehicleTrip2Equpment" IsView="false" DisplayName="Связующая таблица рейсов ТС и оборудования" />
+    <TableDescription TableName="fcs_VehicleTripView" IsView="false" DisplayName="Рейсы ТС" />
+    <TableDescription TableName="ftp_OperationLog" IsView="false" DisplayName="Мониторинг FTP" />
+    <TableDescription TableName="geo_Address" IsView="false" DisplayName="Адреса" />
+    <TableDescription TableName="geo_AddressView" IsView="false" DisplayName="Адреса" />
+    <TableDescription TableName="geo_Country" IsView="false" DisplayName="Страны" />
+    <TableDescription TableName="geo_District" IsView="false" DisplayName="Районы" />
+    <TableDescription TableName="geo_DistrictView" IsView="false" DisplayName="Районы" />
+    <TableDescription TableName="geo_Geonim" IsView="false" DisplayName="Геонимы" />
+    <TableDescription TableName="geo_House" IsView="false" DisplayName="Дома" />
+    <TableDescription TableName="geo_Locality" IsView="false" DisplayName="Населенные пункты" />
+    <TableDescription TableName="geo_LocalityType" IsView="false" DisplayName="Типы населенных пунктов" />
+    <TableDescription TableName="geo_LocalityView" IsView="false" DisplayName="Населенные пункты" />
+    <TableDescription TableName="geo_QualifiedAddress" IsView="false" DisplayName="Уточнение адреса" />
+    <TableDescription TableName="geo_Region" IsView="false" DisplayName="Регионы" />
+    <TableDescription TableName="geo_RegionView" IsView="false" DisplayName="Регионы" />
+    <TableDescription TableName="geo_Road" IsView="false" DisplayName="Дороги" />
+    <TableDescription TableName="geo_RoadType" IsView="false" DisplayName="Типы дорог" />
+    <TableDescription TableName="geo_RoadView" IsView="false" DisplayName="Дороги" />
+    <TableDescription TableName="ln_Direction" IsView="false" DisplayName="Направления" />
+    <TableDescription TableName="ln_DispatcherStation" IsView="false" DisplayName="Диспетчерские станции" />
+    <TableDescription TableName="ln_DispatcherStationView" IsView="true" DisplayName="Диспетчерские станции" />
+    <TableDescription TableName="ln_Duty" IsView="false" DisplayName="Режимы работы" />
+    <TableDescription TableName="ln_InfoFieldType" IsView="false" DisplayName="Типы информационных полей ИЗО" />
+    <TableDescription TableName="ln_InfoFieldTypeView" IsView="false" DisplayName="Типы информационных полей ИЗО" />
+    <TableDescription TableName="ln_Line" IsView="false" DisplayName="Маршруты" />
+    <TableDescription TableName="ln_Line2Operator" IsView="false" DisplayName="Связи маршрутов и перевозчиков" />
+    <TableDescription TableName="ln_LineRoute" IsView="false" DisplayName="Варианты маршрутов" />
+    <TableDescription TableName="ln_LineRoute2RoadSegment" IsView="false" DisplayName="Связи ВМ и отрезков дорог" />
+    <TableDescription TableName="ln_LineRoute2StopPoint" IsView="false" DisplayName="Порядок ОП на ВМ" />
+    <TableDescription TableName="ln_LineRoute2StopSign" IsView="false" DisplayName="Связи ИЗО и ВМ" />
+    <TableDescription TableName="ln_LineRoutePath" IsView="false" DisplayName="Трассы вариантов маршрутов" />
+    <TableDescription TableName="ln_LineRouteStage" IsView="false" DisplayName="Перегоны" />
+    <TableDescription TableName="ln_LineRouteType" IsView="false" DisplayName="Типы вариантов маршрутов" />
+    <TableDescription TableName="ln_LineRouteView" IsView="false" DisplayName="Варианты маршрутов" />
+    <TableDescription TableName="ln_LineView" IsView="false" DisplayName="Маршруты" />
+    <TableDescription TableName="ln_Operator" IsView="false" ApplicationName="" DisplayName="Перевозчики" />
+    <TableDescription TableName="ln_OperatorBranch" IsView="false" DisplayName="Филиалы перевозчиков" />
+    <TableDescription TableName="ln_OperatorBranchBaseView" IsView="true" />
+    <TableDescription TableName="ln_OperatorView" IsView="false" DisplayName="Перевозчики" />
+    <TableDescription TableName="ln_Pavilion" IsView="false" DisplayName="Павильоны" />
+    <TableDescription TableName="ln_PlacePointView" IsView="false" DisplayName="Связующая таблица" />
+    <TableDescription TableName="ln_RealEstate" IsView="false" DisplayName="Объекты недвижимости СПб ГУ ОП" />
+    <TableDescription TableName="ln_RealEstateView" IsView="true" />
+    <TableDescription TableName="ln_RealtyDestination" IsView="false" DisplayName="Назначения" />
+    <TableDescription TableName="ln_Stop" IsView="false" DisplayName="Остановки" />
+    <TableDescription TableName="ln_StopArea" IsView="false" DisplayName="Зоны остановок" />
+    <TableDescription TableName="ln_StopAreaType" IsView="false" DisplayName="Типы зон остановок" />
+    <TableDescription TableName="ln_StopAreaView" IsView="false" DisplayName="Зоны остановок" />
+    <TableDescription TableName="ln_StopPoint" IsView="false" DisplayName="Остановочные пункты" />
+    <TableDescription TableName="ln_StopPoint2LineRouteView" IsView="false" DisplayName="Порядок ОП на ВМ" />
+    <TableDescription TableName="ln_StopPointBaseView" IsView="false" DisplayName="Остановочные пункты" />
+    <TableDescription TableName="ln_StopPointName" IsView="false" DisplayName="УПП: названия ОП" />
+    <TableDescription TableName="ln_StopPointNameBaseView" IsView="true" />
+    <TableDescription TableName="ln_StopPointView" IsView="false" DisplayName="Остановочные пункты" />
+    <TableDescription TableName="ln_StopSign" IsView="false" DisplayName="ИЗО" />
+    <TableDescription TableName="ln_StopSignArrangement" IsView="false" DisplayName="Места установки ИЗО" />
+    <TableDescription TableName="ln_StopSignArrangementView" IsView="false" DisplayName="Связующая таблица" />
+    <TableDescription TableName="ln_StopSignMount" IsView="false" DisplayName="Виды крепления ИЗО" />
+    <TableDescription TableName="ln_StopSignMountView" IsView="false" DisplayName="Типы размещения ИЗО" />
+    <TableDescription TableName="ln_StopSignType" IsView="false" DisplayName="Типы ИЗО" />
+    <TableDescription TableName="ln_StopSignTypeView" IsView="false" DisplayName="Типы ИЗО" />
+    <TableDescription TableName="ln_StopSignView" IsView="false" DisplayName="ИЗО" />
+    <TableDescription TableName="ln_StopType" IsView="false" DisplayName="Типы остановок" />
+    <TableDescription TableName="ln_StopView" IsView="false" DisplayName="Остановки" />
+    <TableDescription TableName="ln_Terminal" IsView="false" DisplayName="Конечные пункты" />
+    <TableDescription TableName="ln_Terminal2StopPoint" IsView="false" DisplayName="Связи ОП и конечных пунктов" />
+    <TableDescription TableName="ln_TerminalView" IsView="false" DisplayName="Конечные пункты" />
+    <TableDescription TableName="ln_TicketKiosk" IsView="false" DisplayName="Киоски по реализации проездных билетов" />
+    <TableDescription TableName="ln_TicketKioskView" IsView="true" />
+    <TableDescription TableName="ln_TimeProfile" IsView="false" DisplayName="Расписания движения" />
+    <TableDescription TableName="ln_TimeProfileInterval" IsView="false" DisplayName="Интервалы движения" />
+    <TableDescription TableName="ln_TimeProfileView" IsView="false" DisplayName="Расписания" />
+    <TableDescription TableName="ln_TransportSystem2StopPoint" IsView="false" DisplayName="Связи транспортных систем и ОП" />
+    <TableDescription TableName="ln_TransportSystem2VehicleUnit" IsView="false" DisplayName="Связи транспортных систем и транспортных средств" />
+    <TableDescription TableName="ln_TurnRing" IsView="false" DisplayName="Разворотные кольца" />
+    <TableDescription TableName="ln_TurnRingView" IsView="true" DisplayName="Разворотные кольца" />
+    <TableDescription TableName="ln_VehicleCombination" IsView="false" DisplayName="Секционности ТС" />
+    <TableDescription TableName="ln_VehicleJourney" IsView="false" DisplayName="Обслуживающие поездки" />
+    <TableDescription TableName="ln_VehicleMotionTime" IsView="false" DisplayName="Время движения между ОП" />
+    <TableDescription TableName="ln_VehicleMotionTimeView" IsView="false" DisplayName="Времена движения ТС" />
+    <TableDescription TableName="ln_VehiclePointView" IsView="false" />
+    <TableDescription TableName="ln_VehicleType" IsView="false" DisplayName="Типы ТС" />
+    <TableDescription TableName="ln_VehicleUnit" IsView="false" DisplayName="Транспортные средства" />
+    <TableDescription TableName="ln_VehicleUnit2VehicleCombination" IsView="false" DisplayName="Связи комбинаций и ТС (VISUM)" />
+    <TableDescription TableName="ln_VehicleUnitClass" IsView="false" DisplayName="Класс вместимости ТС" />
+    <TableDescription TableName="ln_VehicleUnitFleet" IsView="false" DisplayName="Парки транспортных средств" />
+    <TableDescription TableName="ln_VehicleUnitFleetView" IsView="true" DisplayName="Парки ТС" />
+    <TableDescription TableName="ln_VehicleUnitView" IsView="true" DisplayName="Транспортные средства" />
+    <TableDescription TableName="map_Entity2GeoPoint" IsView="false" DisplayName="Точки на слоях" />
+    <TableDescription TableName="map_Entity2Polyline" IsView="false" DisplayName="Полилинии на слоях" />
+    <TableDescription TableName="map_Entity2Shape" IsView="false" DisplayName="Фигуры на слоях" />
+    <TableDescription TableName="map_GeoPoint" IsView="false" DisplayName="Точки" />
+    <TableDescription TableName="map_Layer" IsView="false" DisplayName="Картографические слои" />
+    <TableDescription TableName="map_LayerBaseView" IsView="true" DisplayName="Слои" />
+    <TableDescription TableName="map_LayerView" IsView="true" DisplayName="Слои" />
+    <TableDescription TableName="map_Polyline" IsView="false" DisplayName="Полилинии" />
+    <TableDescription TableName="map_PolylinePoint" IsView="false" DisplayName="Точки полилиний" />
+    <TableDescription TableName="map_PolylineView" IsView="true" DisplayName="Полилинии" />
+    <TableDescription TableName="map_Shape" IsView="false" DisplayName="Фигуры" />
+    <TableDescription TableName="map_ShapePoint" IsView="false" DisplayName="Точки фигур" />
+    <TableDescription TableName="map_Style" IsView="false" DisplayName="Стили отображения" />
+    <TableDescription TableName="map_Style2Miniature" IsView="false" DisplayName="Стили иконок" />
+    <TableDescription TableName="map_ViewPredicate" IsView="false" DisplayName="Предикаты отрисовки" />
+    <TableDescription TableName="map_ViewPredicateView" IsView="false" DisplayName="Предикаты отображения" />
+    <TableDescription TableName="map_ViewProfile" IsView="false" DisplayName="Профили отображения" />
+    <TableDescription TableName="map_ViewProfileItem" IsView="false" DisplayName="Элементы профилей отображения" />
+    <TableDescription TableName="map_ViewProfileItemView" IsView="false" DisplayName="Элементы профилей отображения" />
+    <TableDescription TableName="pcc_Brigade" IsView="false" />
+    <TableDescription TableName="pcc_CheckInitiator" IsView="false" DisplayName="Инициаторы проверок" />
+    <TableDescription TableName="pcc_CheckInitiatorView" IsView="true" />
+    <TableDescription TableName="pcc_CheckType" IsView="false" DisplayName="Виды проверок" />
+    <TableDescription TableName="pcc_CheckWorkResult" IsView="false" DisplayName="Планы и результаты контроля работы ГППТ" />
+    <TableDescription TableName="pcc_CheckWorkResultView" IsView="true" />
+    <TableDescription TableName="pcc_ControlRevisionCheck" IsView="false" DisplayName="Проверки КРУ ГППТ" />
+    <TableDescription TableName="pcc_ControlRevisionCheckView" IsView="true" />
+    <TableDescription TableName="pcc_FinanceCheck" IsView="false" DisplayName="Финансовые проверки" />
+    <TableDescription TableName="pcc_FinanceCheckView" IsView="true" DisplayName="Финансовые проверки" />
+    <TableDescription TableName="pcc_FinanceDisciplineControl" IsView="false" />
+    <TableDescription TableName="pcc_FinanceDisciplineControlView" IsView="true" />
+    <TableDescription TableName="pcc_MaintainWorkPlan" IsView="false" DisplayName="Планы и ход выполнения работ по содержанию объектов ТИ ГППТ " />
+    <TableDescription TableName="pcc_MaintainWorkPlanView" IsView="true" />
+    <TableDescription TableName="pcc_OperatorControl" IsView="false" DisplayName="Контроль перевозчиков" />
+    <TableDescription TableName="pcc_OperatorControlView" IsView="true" />
+    <TableDescription TableName="pcc_PassengerFlowMeasurement" IsView="false" DisplayName="Замеры пассажиропотока в салоне" />
+    <TableDescription TableName="pcc_PassengerFlowMeasurementView" IsView="true" />
+    <TableDescription TableName="pcc_PassengerFlowTable" IsView="false" DisplayName="Замеры пассажиропотока в салоне" />
+    <TableDescription TableName="pcc_PassengerFlowTableView" IsView="true" />
+    <TableDescription TableName="pcc_RouteList" IsView="false" />
+    <TableDescription TableName="pcc_Shift" IsView="false" />
+    <TableDescription TableName="pcc_StopPointPassangerFlowMeasurement" IsView="false" DisplayName="Замеры пассажиропотока на ОП" />
+    <TableDescription TableName="pcc_StopPointPassangerFlowTable" IsView="false" DisplayName="Замеры пассажиропотока на остановке" />
+    <TableDescription TableName="pcc_StopPointPassangerFlowTableView" IsView="true" />
+    <TableDescription TableName="pcc_Task" IsView="false" />
+    <TableDescription TableName="pcc_TaxiCard" IsView="false" DisplayName="Карточки-разрешения" />
+    <TableDescription TableName="pcc_TaxiCardView" IsView="true" />
+    <TableDescription TableName="pcc_TerminalCheck" IsView="false" DisplayName="Проверки автостанций" />
+    <TableDescription TableName="pcc_TerminalCheckView" IsView="true" />
+    <TableDescription TableName="pcc_TimeProfileCheck" IsView="false" />
+    <TableDescription TableName="pcc_TimeProfileCheckTable" IsView="false" DisplayName="Выполнения расписания" />
+    <TableDescription TableName="pcc_TimeProfileCheckTableView" IsView="true" />
+    <TableDescription TableName="pcc_TimeProfileCheckView" IsView="true" />
+    <TableDescription TableName="pcc_ViolationType" IsView="false" DisplayName="Виды нарушений" />
+    <TableDescription TableName="pcc_Warrant" IsView="false" DisplayName="Наряды-задания" />
+    <TableDescription TableName="pcc_WarrantView" IsView="true" />
+    <TableDescription TableName="rms_Calendar" IsView="false" DisplayName="Календарь" />
+    <TableDescription TableName="rms_Constant" IsView="false" DisplayName="Константы" />
+    <TableDescription TableName="rms_Correspondence" IsView="false" DisplayName="Внешняя переписка" />
+    <TableDescription TableName="rms_CorrespondenceView" IsView="false" DisplayName="Внешняя переписка" />
+    <TableDescription TableName="rms_DataSourceView" IsView="false" DisplayName="Источники данных" />
+    <TableDescription TableName="rms_Department" IsView="false" DisplayName="Подразделения" />
+    <TableDescription TableName="rms_DepartmentBaseView" IsView="true" DisplayName="Подразделения" />
+    <TableDescription TableName="rms_Document" IsView="false" DisplayName="Документы" />
+    <TableDescription TableName="rms_DocumentType" IsView="false" DisplayName="Типы документов" />
+    <TableDescription TableName="rms_DocumentTypeBaseView" IsView="true" DisplayName="Типы документов" />
+    <TableDescription TableName="rms_DocumentView" IsView="false" DisplayName="Документы" />
+    <TableDescription TableName="rms_Employee" IsView="false" DisplayName="Сотрудники" />
+    <TableDescription TableName="rms_EmployeeView" IsView="false" DisplayName="Сотрудники" />
+    <TableDescription TableName="rms_Photo" IsView="false" DisplayName="Фотографии" />
+    <TableDescription TableName="rms_Position" IsView="false" DisplayName="Должности" />
+    <TableDescription TableName="rms_PositionBaseView" IsView="true" DisplayName="Должности" />
+    <TableDescription TableName="rms_ProcessInfo" IsView="false" DisplayName="Процессы" />
+    <TableDescription TableName="rms_ProcessTimeTable" IsView="false" DisplayName="Расписание процессов" />
+    <TableDescription TableName="rms_ProcessTimeTableView" IsView="false" DisplayName="Расписание процессов" />
+    <TableDescription TableName="rms_Report" IsView="false" DisplayName="Сформированные отчёты" />
+    <TableDescription TableName="rms_ReportView" IsView="true" DisplayName="Сформированные отчёты" />
+    <TableDescription TableName="rms_Status" IsView="false" DisplayName="Статусы документов" />
+    <TableDescription TableName="rms_StatusBaseView" IsView="false" DisplayName="Статусы документов" />
+    <TableDescription TableName="rms_StatusUpdatePlan" IsView="false" DisplayName="План периодического обновления атрибутов" />
+    <TableDescription TableName="rms_StatusView" IsView="false" DisplayName="Статусы документов" />
+    <TableDescription TableName="rn_CrossRoad" IsView="false" DisplayName="Перекрестки" />
+    <TableDescription TableName="rn_CrossRoadsView" IsView="false" DisplayName="Перекрестки" DisplayExpression="{Name}" />
+    <TableDescription TableName="rn_CrossRoadView" IsView="false" DisplayName="Перекрёстки" />
+    <TableDescription TableName="rn_Node" IsView="false" DisplayName="Узлы ДС" />
+    <TableDescription TableName="rn_NodeView" IsView="false" DisplayName="Узлы ДС" />
+    <TableDescription TableName="rn_RestrictedZone" IsView="false" DisplayName="Зоны ограничения движения" />
+    <TableDescription TableName="rn_RestrictedZoneType" IsView="false" DisplayName="Типы зон ограничения движения" />
+    <TableDescription TableName="rn_RestrictedZoneView" IsView="true" />
+    <TableDescription TableName="rn_RoadSegment" IsView="true" DisplayName="Отрезки дорог" />
+    <TableDescription TableName="rn_RoadSegmentType" IsView="false" DisplayName="Типы отрезков дорог" />
+    <TableDescription TableName="rn_RoadSegmentView" IsView="false" DisplayName="Отрезки дорог" />
+    <TableDescription TableName="rn_TransportSystem" IsView="false" DisplayName="Транспортные системы" />
+    <TableDescription TableName="rn_TransportSystem2RoadSegmentType" IsView="false" DisplayName="Связи транспортных систем и типов отрезков дорог" />
+    <TableDescription TableName="rn_TransportSystem2Turn" IsView="false" DisplayName="Связи транспортных систем и поворотов" />
+    <TableDescription TableName="rn_TransportSystemBaseView" IsView="true" DisplayName="Транспортные системы" />
+    <TableDescription TableName="rn_Turn" IsView="false" DisplayName="Повороты" />
+    <TableDescription TableName="rn_TurnView" IsView="false" DisplayName="Повороты" />
+    <TableDescription TableName="sec_DocumentTypePermission" IsView="false" DisplayName="Права доступа к документам" />
+    <TableDescription TableName="sec_Permission" IsView="false" DisplayName="Права доступа" />
+    <TableDescription TableName="sec_Role" IsView="false" DisplayName="Роли" DisplayExpression="[{Name}]" />
+    <TableDescription TableName="sec_TableDescriptionView" IsView="false" DisplayName="Таблицы" />
+    <TableDescription TableName="sec_User" IsView="false" DisplayName="Пользователи и права доступа" />
+    <TableDescription TableName="sec_User2Role" IsView="false" DisplayName="Связующая таблица пользователей и ролей" />
+    <TableDescription TableName="tic_DemandDocument" IsView="false" DisplayName="Основания для заявок" />
+    <TableDescription TableName="tic_ExecutorsWorkStopSign" IsView="false" DisplayName="Исполнители работ по ИЗО" />
+    <TableDescription TableName="tic_ExecutorsWorkStopSignView" IsView="true" DisplayName="Исполнители работ по ИЗО" />
+    <TableDescription TableName="tic_Material" IsView="false" DisplayName="Виды материалов" />
+    <TableDescription TableName="tic_MaterialView" IsView="false" DisplayName="Материалы" />
+    <TableDescription TableName="tic_MeasurementUnit" IsView="false" DisplayName="Единицы измерения" />
+    <TableDescription TableName="tic_StopPointCheck" IsView="false" DisplayName="Проверки состояния ОП" />
+    <TableDescription TableName="tic_StopPointCheckView" IsView="false" DisplayName="Проверки ИЗО" />
+    <TableDescription TableName="tic_StopPointView" IsView="false" DisplayName="Остановочные пункты" />
+    <TableDescription TableName="tic_StopSignCheck" IsView="false" DisplayName="Проверки состояния ИЗО" />
+    <TableDescription TableName="tic_StopSignCheckView" IsView="false" DisplayName="Проверки ИЗО" />
+    <TableDescription TableName="tic_StopSignDemand" IsView="false" DisplayName="Заявки на работы по ИЗО" />
+    <TableDescription TableName="tic_StopSignDemand2StopSignWorkType" IsView="false" DisplayName="Связи заявок на работы по ИЗО и видов работ по ИЗО" />
+    <TableDescription TableName="tic_StopSignDemandView" IsView="false" DisplayName="Заявки на работы по ИЗО" />
+    <TableDescription TableName="tic_StopSignFaultType" IsView="false" DisplayName="Виды неисправности ИЗО" />
+    <TableDescription TableName="tic_StopSignView" IsView="false" DisplayName="ИЗО" />
+    <TableDescription TableName="tic_StopSignWorkCheck" IsView="false" DisplayName="Проверки работ по ИЗО" />
+    <TableDescription TableName="tic_StopSignWorkCheckView" IsView="false" DisplayName="Проверки работ по ИЗО" />
+    <TableDescription TableName="tic_StopSignWorkType" IsView="false" DisplayName="Типы работ по ИЗО" />
+    <TableDescription TableName="tic_Warrant" IsView="false" DisplayName="Наряды-задания" />
+    <TableDescription TableName="tic_WarrantView" IsView="false" DisplayName="Наряды" />
+    <TableDescription TableName="tm_AgeRange" IsView="false" DisplayName="Диапазоны возрастов населения" />
+    <TableDescription TableName="tm_AnalysisTask" IsView="false" DisplayName="Задачи анализа статистики" />
+    <TableDescription TableName="tm_AnalysisTimeInterval" IsView="false" DisplayName="Временные интервалы анализа" />
+    <TableDescription TableName="tm_Connector" IsView="false" DisplayName="Примыкания" />
+    <TableDescription TableName="tm_ConnectorType" IsView="false" DisplayName="Типы примыканий" />
+    <TableDescription TableName="tm_CorrespondenceMatrix" IsView="false" DisplayName="Матрицы корреспонденций" />
+    <TableDescription TableName="tm_CorrespondenceMatrixItem" IsView="false" DisplayName="Элементы матрицы корреспонденций" />
+    <TableDescription TableName="tm_CorrespondenceMatrixView" IsView="false" DisplayName="Матрицы корреспонденций" />
+    <TableDescription TableName="tm_LineLoad" IsView="false" DisplayName="Нагрузки на маршруты" />
+    <TableDescription TableName="tm_LineLoadView" IsView="true" DisplayName="Нагрузки на маршруты" />
+    <TableDescription TableName="tm_LineRoadStopPointLoad" IsView="false" DisplayName="Нагрузки на ОП по ВМ" />
+    <TableDescription TableName="tm_LineRouteDiscrepancy" IsView="false" DisplayName="Невязки по ВМ" />
+    <TableDescription TableName="tm_LineRouteLoad" IsView="false" DisplayName="Нагрузки на ВМ" />
+    <TableDescription TableName="tm_LineRouteLoadView" IsView="true" DisplayName="Нагрузки на ВМ" />
+    <TableDescription TableName="tm_LineRouteNode" IsView="false" DisplayName="Геометрия ВМ в АСУ" />
+    <TableDescription TableName="tm_LoadValue" IsView="false" DisplayName="Значения нагрузок" />
+    <TableDescription TableName="tm_LoadValueView" IsView="true" DisplayName="Значения нагрузок" />
+    <TableDescription TableName="tm_Scenario" IsView="false" DisplayName="Сценарии" />
+    <TableDescription TableName="tm_StopPointArriving" IsView="false" DisplayName="Время прохождения ОП" />
+    <TableDescription TableName="tm_StopPointLoad" IsView="false" DisplayName="Нагрузки на ОП" />
+    <TableDescription TableName="tm_VehiclePosition" IsView="false" DisplayName="Позиции ТС" />
+    <TableDescription TableName="tm_VehicleTrack" IsView="false" DisplayName="Трассы ТС" />
+    <TableDescription TableName="tm_VehicleTrackBaseView" IsView="true" DisplayName="Трассы ТС" />
+    <TableDescription TableName="tm_VehicleTrackItem" IsView="false" DisplayName="Элементы трасс ТС" />
+    <TableDescription TableName="tm_VehicleTrackView" IsView="true" DisplayName="Трассы ТС" />
+    <TableDescription TableName="tm_VehicleTrip2VehicleTrack" IsView="false" DisplayName="Связующая таблица рейсов ТС и трассы ТС" />
+    <TableDescription TableName="tm_VehicleUnitLoad" IsView="false" DisplayName="Нагрузки на транспортные средства" />
+    <TableDescription TableName="tm_VehicleUnitLoadView" IsView="true" DisplayName="Нагрузки на ТС" />
+    <TableDescription TableName="tm_VisumDatabase" IsView="false" DisplayName="Базы данных НДТМ" />
+    <TableDescription TableName="tm_VisumDatabaseView" IsView="false" DisplayName="НДТМ VISUM" />
+    <TableDescription TableName="tm_Zone" IsView="false" DisplayName="Транспортные районы" />
+    <TableDescription TableName="tm_Zone2AgeRange" IsView="false" DisplayName="Классификация возрастов по транспортным районам" />
+    <TableDescription TableName="tm_ZoneView" IsView="false" DisplayName="Зоны" />
+  </Tables>
+  <Categories>
+    <Category Visible="true">Основное</Category>
+    <Category Visible="true">Состояние</Category>
+    <Category Visible="true">Проверка</Category>
+    <Category Visible="false" ApplicationName="АРМ КСТИ">VISUM</Category>
+  </Categories>
+  <CategoryOrder>
+    <Category>Основное</Category>
+    <Category>Состояние</Category>
+    <Category>Проверка</Category>
+    <Category>VISUM</Category>
+  </CategoryOrder>
+</EntityDescriptionContainer>

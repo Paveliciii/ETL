@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using ERMS.Core.Common;
+
+namespace AT.ETL
+{
+    // Minimal stub for ETLConnectionPair used across the project.
+    public class ETLConnectionPair
+    {
+        public DateTime LastAccessDate { get; set; }
+        public string ConnectionString { get; set; }
+    }
+}
+
+namespace Shell.UI
+{
+    // Minimal ETLSettings to satisfy configuration usage in the shell.
+    public class ETLSettings : ConfigurationSection
+    {
+        public static ETLSettings Preferences { get; } = new ETLSettings();
+
+        // DataSources and ScenarioConnections used by the UI; types are minimal to compile.
+        public Dictionary<string, object> DataSources { get; } = new Dictionary<string, object>(StringComparer.OrdinalIgnoreCase);
+
+        public Dictionary<string, AT.ETL.ETLConnectionPair> ScenarioConnections { get; } = new Dictionary<string, AT.ETL.ETLConnectionPair>(StringComparer.OrdinalIgnoreCase);
+    }
+
+    // Simple ConnectionEntry used by various UI adapters.
+    public class ConnectionEntry
+    {
+        public object Caller { get; set; }
+        public string ConnectionString { get; set; }
+    }
+
+    // Interface implemented by ShellSqlFormService.
+    public interface ISqlFormService
+    {
+        bool ShowScenarioForm(object owner, string sourceName, string destinationName, AT.ETL.ETLConnectionPair pair);
+        bool ShowSqlServerForm(ConnectionEntry entry);
+    }
+}

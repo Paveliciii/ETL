@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using ERMS.Core.Common;
+
+namespace Shell.UI
+{
+    // Simple config type stored in ETLSettings.DataSources
+    public class DataSourceConfig
+    {
+        public int Timeout { get; set; }
+    }
+
+    // Minimal ETLSettings to satisfy configuration usage in the shell.
+    public class ETLSettings : ConfigurationSection
+    {
+        public static ETLSettings Preferences { get; } = new ETLSettings();
+
+        // DataSources used by the UI; Timeout is accessed by ETLShellSettings.
+        public Dictionary<string, DataSourceConfig> DataSources { get; } = new Dictionary<string, DataSourceConfig>(StringComparer.OrdinalIgnoreCase);
+
+        // ScenarioConnections references the ETL library's ETLConnectionPair.
+        public Dictionary<string, object> ScenarioConnections { get; } = new Dictionary<string, object>(StringComparer.OrdinalIgnoreCase);
+    }
+
+    // Interface implemented by ShellSqlFormService. Uses ETL types from referenced assemblies.
+    public interface ISqlFormService
+    {
+        bool ShowScenarioForm(object owner, string sourceName, string destinationName, object pair);
+        bool ShowSqlServerForm(object entry);
+    }
+}

@@ -1,0 +1,46 @@
+C:\Users\pavel\Downloads\Core\src\bin\Debug\АРМ Формирование НДТМ.exe
+C:\Users\pavel\Downloads\Core\src\bin\Debug\АРМ Формирование НДТМ.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ATGuiToolbox.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ATMssqlToolbox.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ATToolbox.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\Core.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.Core.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.UI.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ETL.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\GUOP.BLL.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\log4net.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\MapEntities.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\RoadNetwork.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\TransportModel.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\Map.Interfaces.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\LineNetwork.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\BLL.FareControlSystem.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.Security.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.BLL.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ContactInfo.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\Geography.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\TransportInfrastructureCheck.dll
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ETL.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.UI.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ATGuiToolbox.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.Core.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ATMssqlToolbox.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\TransportModel.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\RoadNetwork.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\Core.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\MapEntities.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\GUOP.BLL.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ATToolbox.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\Map.Interfaces.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\LineNetwork.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\BLL.FareControlSystem.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.Security.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ERMS.BLL.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\ContactInfo.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\Geography.pdb
+C:\Users\pavel\Downloads\Core\src\bin\Debug\TransportInfrastructureCheck.pdb
+C:\Users\pavel\Downloads\Core\src\obj\x86\Debug\АРМ Формирование НДТМ.csproj.AssemblyReference.cache
+C:\Users\pavel\Downloads\Core\src\obj\x86\Debug\АРМ Формирование НДТМ.csproj.CoreCompileInputs.cache
+C:\Users\pavel\Downloads\Core\src\obj\x86\Debug\___ ____.B94FF5E5.Up2Date
+C:\Users\pavel\Downloads\Core\src\obj\x86\Debug\АРМ Формирование НДТМ.exe
+C:\Users\pavel\Downloads\Core\src\obj\x86\Debug\АРМ Формирование НДТМ.pdb

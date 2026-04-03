@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--
+    Скопируйте сюда DLL DevExpress v9.2 (из установки «Графические компоненты»):
+      DevExpress.Data.v9.2.dll
+      DevExpress.Utils.v9.2.dll
+      DevExpress.XtraBars.v9.2.dll
+      DevExpress.XtraEditors.v9.2.dll
+      DevExpress.XtraGrid.v9.2.dll
+      DevExpress.XtraVerticalGrid.v9.2.dll
+    Либо задайте свой путь: msbuild /p:DevExpressDir=C:\Path\To\DX92
+  -->
+  <PropertyGroup>
+    <NDTMRefsDir Condition="'$(NDTMRefsDir)'==''">$(MSBuildThisFileDirectory)..\АРМ_Формирование_НДТМ_msi_files\AudiTech\АРМ Формирование НДТМ\3.0.8144.0</NDTMRefsDir>
+    <DevExpressDir Condition="'$(DevExpressDir)'==''">$(MSBuildThisFileDirectory)lib\DevExpress</DevExpressDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ETL">
+      <HintPath>$(NDTMRefsDir)\ETL.dll</HintPath>
+    </Reference>
+    <Reference Include="ERMS.UI">
+      <HintPath>$(NDTMRefsDir)\ERMS.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="ATGuiToolbox">
+      <HintPath>$(NDTMRefsDir)\ATGuiToolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="ERMS.Core">
+      <HintPath>$(NDTMRefsDir)\ERMS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ATMssqlToolbox">
+      <HintPath>$(NDTMRefsDir)\ATMssqlToolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="TransportModel">
+      <HintPath>$(NDTMRefsDir)\TransportModel.dll</HintPath>
+    </Reference>
+    <Reference Include="RoadNetwork">
+      <HintPath>$(NDTMRefsDir)\RoadNetwork.dll</HintPath>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>$(NDTMRefsDir)\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MapEntities">
+      <HintPath>$(NDTMRefsDir)\MapEntities.dll</HintPath>
+    </Reference>
+    <Reference Include="GUOP.BLL">
+      <HintPath>$(NDTMRefsDir)\GUOP.BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="ATToolbox">
+      <HintPath>$(NDTMRefsDir)\ATToolbox.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>$(NDTMRefsDir)\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.2">
+      <HintPath>$(DevExpressDir)\DevExpress.Data.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.2">
+      <HintPath>$(DevExpressDir)\DevExpress.Utils.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.2">
+      <HintPath>$(DevExpressDir)\DevExpress.XtraEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.2">
+      <HintPath>$(DevExpressDir)\DevExpress.XtraBars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.2">
+      <HintPath>$(DevExpressDir)\DevExpress.XtraGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v9.2">
+      <HintPath>$(DevExpressDir)\DevExpress.XtraVerticalGrid.v9.2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿namespace Shell.UI
+{
+    using AT.Toolbox;
+    using ERMS.Core.Common;
+    using ERMS.Core.DAL;
+    using ERMS.Core.DbMould;
+    using ERMS.UI;
+    using GUOP;
+    using log4net;
+    using Shell.UI.Properties;
+    using System;
+    using System.IO;
+    using System.Windows.Forms;
+    using TransportModel;
+
+    internal static class Program
+    {
+        private static ILog Log;
+
+        [STAThread]
+        private static void Main()
+        {
+            AppInstance.InitializeLogging(Resources.Log4netConfig, null);
+            Log = LogManager.GetLogger(typeof(Program).Name);
+            string pluginsDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "PlugIns");
+            if (!Directory.Exists(pluginsDir))
+            {
+                Directory.CreateDirectory(pluginsDir);
+            }
+
+            foreach (string str in Directory.GetFiles(pluginsDir, "*.dll"))
+            {
+                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, Path.GetFileName(str));
+                if (File.Exists(path))
+                {
+                    try
+                    {
+                        File.Delete(path);
+                    }
+                    catch (Exception exception)
+                    {
+                        Log.Error("Main(): Exception ", exception);
+                    }
+                }
+            }
+            AppInstance.LoadPlugins = true;
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            AppInstance.ConfigFileFinder = new ConfigFileFinder(null, "ndtm.config");
+            RecordManager.Service = new RecordManagementService();
+            FileEntityDescriptionSource.ColumnListSources.Add(new EntityInfoCoulmnListSource(GUOPContext.DataSourceName));
+            FileEntityDescriptionSource.Fields[GUOPContext.DataSourceName] = EntityDescriptionContainer.LoadFromFile(Shell.UI.Properties.Settings.Default.FieldDescription);
+            FormFactory.Customizations[typeof(VisumDatabase)] = new VisumDatabaseFormFactory();
+            if (!Directory.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "PlugIns")))
+            {
+                Directory.CreateDirectory(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "PlugIns"));
+            }
+            LookupContainer.Setup<ISqlFormService>(() => new ShellSqlFormService(), true);
+            AppWrapper.AddSectionType<ETLSettings>();
+            AppWrapper.AddSectionType<ETLShellSettings>();
+            AppWrapper.SplashScreen = "Splash.jpg";
+            AppWrapper.Run<MainForm>(true);
+        }
+
+        public static ETLShellSettings Preferences =>
+            AppManager.Configurator.GetSection<ETLShellSettings>();
+    }
+}
+
