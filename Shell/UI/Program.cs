@@ -16,6 +16,7 @@
     internal static class Program
     {
         private static ILog Log;
+        private const string ConfigFileName = "ndtm.config";
 
         [STAThread]
         private static void Main()
@@ -66,7 +67,7 @@
             // If ConfigFileFinder is created before the file exists it may scan and record a null BasePath.
             try
             {
-                string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ndtm.config");
+                string configPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ConfigFileName);
                 Log.InfoFormat("BaseDirectory: {0}", AppDomain.CurrentDomain.BaseDirectory);
                 Log.InfoFormat("configPath: {0}", configPath);
                 Log.InfoFormat("File exists: {0}", File.Exists(configPath));
@@ -90,7 +91,7 @@
                 Log.Error("Failed to ensure ndtm.config exists", ex);
             }
 
-            AppInstance.ConfigFileFinder = new ConfigFileFinder(new[] { AppDomain.CurrentDomain.BaseDirectory }, "ndtm.config");
+            AppInstance.ConfigFileFinder = CreateSafeConfigFileFinder();
             RecordManager.Service = new RecordManagementService();
             FileEntityDescriptionSource.ColumnListSources.Add(new EntityInfoCoulmnListSource(GUOPContext.DataSourceName));
             string fieldDescriptionFile = Shell.UI.Properties.Settings.Default.FieldDescription;
@@ -178,6 +179,38 @@
 
         public static ETLShellSettings Preferences =>
             AppManager.Configurator.GetSection<ETLShellSettings>();
+
+        private static ConfigFileFinder CreateSafeConfigFileFinder()
+        {
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            string currentDir = Environment.CurrentDirectory;
+            string startupPath = Application.StartupPath;
+            string[] lookupPaths = new[] { baseDir, currentDir, startupPath };
+            var finder = new ConfigFileFinder(lookupPaths, ConfigFileName);
+
+            try
+            {
+                // Force finder initialization early so Path.Combine does not fail later during settings save.
+                string outputPath = finder.OutputConfigFilePath;
+                Log.InfoFormat("ConfigFileFinder.OutputConfigFilePath: {0}", outputPath);
+            }
+            catch (Exception ex)
+            {
+                Log.Error("ConfigFileFinder failed during initialization. Creating local fallback config.", ex);
+
+                string fallbackDirectory = string.IsNullOrWhiteSpace(baseDir)
+                    ? Directory.GetCurrentDirectory()
+                    : baseDir;
+                string fallbackPath = Path.Combine(fallbackDirectory, ConfigFileName);
+                if (!File.Exists(fallbackPath))
+                {
+                    File.WriteAllText(fallbackPath, "<CONFIG></CONFIG>");
+                }
+
+                finder = new ConfigFileFinder(new[] { fallbackDirectory }, ConfigFileName);
+            }
+
+            return finder;
+        }
     }
 }
-
